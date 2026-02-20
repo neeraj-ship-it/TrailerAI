@@ -1,0 +1,129 @@
+# Production-Grade Trailer Narrative AI
+# Version: 3.0.0 - Production Ready
+# All open-source - NO paid APIs required
+
+# =============================================================================
+# CORE PROCESSING
+# =============================================================================
+ffmpeg-python>=0.2.0
+moviepy>=1.0.3
+opencv-python>=4.8.0
+numpy>=1.24.0
+pillow>=10.0.0
+
+# =============================================================================
+# SCENE DETECTION
+# =============================================================================
+scenedetect[opencv]>=0.6.0
+
+# =============================================================================
+# AUDIO PROCESSING & INDIAN DIALECT ASR
+# Using HuggingFace open-source models for best Indian dialect support
+# =============================================================================
+# PyTorch (GPU acceleration recommended)
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# Audio utilities
+pydub>=0.25.0
+scipy>=1.11.0
+librosa>=0.10.0
+soundfile>=0.12.0
+
+# Whisper for ASR (fallback)
+openai-whisper>=20231117
+
+# =============================================================================
+# LLM FOR SMART NARRATIVE ANALYSIS
+# Auto-downloads models on first run
+# =============================================================================
+transformers>=4.35.0
+accelerate>=0.24.0
+sentencepiece>=0.1.99
+huggingface-hub>=0.19.0
+safetensors>=0.4.0
+
+# =============================================================================
+# LOCAL LLM (Ollama) - For Dialogue-First Narrative Engine
+# Install Ollama from: https://ollama.ai
+# Then run: ollama pull mistral (or llama3.2, phi3)
+# =============================================================================
+ollama>=0.3.0
+
+# =============================================================================
+# AI MUSIC GENERATION (Optional)
+# Uncomment for AI-generated trailer music
+# =============================================================================
+# audiocraft>=1.0.0  # Meta's MusicGen (~2GB download)
+
+# =============================================================================
+# SCRIPT/SUBTITLE PARSING
+# =============================================================================
+PyMuPDF>=1.23.0
+pdfplumber>=0.10.0
+pysrt>=1.1.2
+webvtt-py>=0.4.6
+chardet>=5.2.0
+
+# =============================================================================
+# VISUAL ANALYSIS
+# =============================================================================
+# CLIP is included in transformers, no separate install needed
+
+# =============================================================================
+# INFRASTRUCTURE
+# =============================================================================
+boto3>=1.28.0
+requests>=2.31.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+
+# =============================================================================
+# UTILITIES
+# =============================================================================
+tqdm>=4.65.0
+loguru>=0.7.0
+tenacity>=8.2.0
+
+# =============================================================================
+# DEVELOPMENT
+# =============================================================================
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+
+# =============================================================================
+# HUGGINGFACE MODELS USED (auto-downloaded on first run):
+# =============================================================================
+#
+# Indian Dialect ASR (Priority Order):
+#   1. ai4bharat/indicwav2vec-hindi - Best for Hindi/regional dialects
+#   2. vasista22/whisper-hindi-large-v2 - Whisper fine-tuned for Hindi
+#   3. openai/whisper-large-v3 - Ultimate fallback
+#
+# Supported Indian Dialects:
+#   - Hindi (Standard)
+#   - Haryanvi
+#   - Bhojpuri
+#   - Rajasthani
+#   - Gujarati
+#   - Marathi, Punjabi, Bengali, Tamil, Telugu
+#
+# LLM for Narrative Generation:
+#   - google/flan-t5-large (Fast, good quality, ~3GB)
+#   - ai4bharat/IndicBARTSS (Hindi-specialized)
+#
+# Visual Analysis:
+#   - openai/clip-vit-large-patch14 (Scene understanding)
+#
+# Music Generation (optional):
+#   - facebook/musicgen-small (AI music, ~2GB)
+#
+# =============================================================================
+# GPU ACCELERATION (Recommended for faster processing)
+# =============================================================================
+# For CUDA GPU support, install PyTorch with CUDA:
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+#
+# For Apple Silicon (M1/M2/M3), PyTorch MPS is auto-detected
+#
+# =============================================================================

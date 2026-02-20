@@ -1,0 +1,2362 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MODULE: All Content  Tests GET: /contents/allContents should return all content details irrespective of user 1`] = `
+{
+  "data": [
+    {
+      "_id": 1001,
+      "displayLanguage": "en",
+      "displaySlug": "family-values-1001",
+      "format": "microdrama",
+      "language": "har",
+      "thumbnail": {
+        "horizontal": {
+          "ratio1": {
+            "gradient": "#4a90e2",
+            "sourceLink": "microdrama-1-horizontal.jpg",
+          },
+          "ratio2": {
+            "gradient": "#4a90e2",
+            "sourceLink": "microdrama-1-horizontal-2.jpg",
+          },
+          "ratio3": {
+            "gradient": "",
+            "sourceLink": "",
+          },
+        },
+        "square": {
+          "ratio1": {
+            "gradient": "#4a90e2",
+            "sourceLink": "microdrama-1-square.jpg",
+          },
+        },
+        "vertical": {
+          "ratio1": {
+            "gradient": "#4a90e2",
+            "sourceLink": "microdrama-1-vertical.jpg",
+          },
+        },
+      },
+      "title": "Family Values",
+      "type": "show",
+    },
+    {
+      "_id": 443,
+      "displayLanguage": "en",
+      "displaySlug": "prem-nagar-season-2-443",
+      "format": "standard",
+      "language": "har",
+      "thumbnail": {
+        "horizontal": {
+          "ratio1": {
+            "gradient": "#3b3330",
+            "sourceLink": "showImage-1653383421904.jpg",
+          },
+          "ratio2": {
+            "gradient": "#3b3330",
+            "sourceLink": "showImage-1653383468824.jpg",
+          },
+          "ratio3": {
+            "gradient": "#3b3330",
+            "sourceLink": "showImage-1667983548201.jpg",
+          },
+        },
+        "square": {
+          "ratio1": {
+            "gradient": "#3b3330",
+            "sourceLink": "showImage-1653383468824.jpg",
+          },
+        },
+        "vertical": {
+          "ratio1": {
+            "gradient": "#3b3330",
+            "sourceLink": "prem-nagar---s2_Har_En_2x3.jpg",
+          },
+        },
+      },
+      "title": "Prem Nagar - Season 2",
+      "type": "show",
+    },
+    {
+      "_id": 309,
+      "displayLanguage": "en",
+      "displaySlug": "prem-nagar-309",
+      "format": "standard",
+      "language": "har",
+      "thumbnail": {
+        "horizontal": {
+          "ratio1": {
+            "gradient": "#f3d36d",
+            "sourceLink": "showImage-1644651730319.jpg",
+          },
+          "ratio2": {
+            "gradient": "#f3d36d",
+            "sourceLink": "showImage-1644651758278.jpg",
+          },
+          "ratio3": {
+            "gradient": "",
+            "sourceLink": "Prem_Nagar_Eng_HAR_TV.jpg",
+          },
+        },
+        "square": {
+          "ratio1": {
+            "gradient": "#f3d36d",
+            "sourceLink": "showImage-1644651758278.jpg",
+          },
+        },
+        "vertical": {
+          "ratio1": {
+            "gradient": "#f3d36d",
+            "sourceLink": "prem-nagar_Har_Eng2x3.jpg",
+          },
+        },
+      },
+      "title": "Prem Nagar",
+      "type": "show",
+    },
+    {
+      "_id": 70,
+      "displayLanguage": "en",
+      "displaySlug": "bojh-na-hoti-70",
+      "format": "standard",
+      "language": "har",
+      "thumbnail": {
+        "horizontal": {
+          "ratio1": {
+            "gradient": "#93552e",
+            "sourceLink": "showImage-1588584258059.jpg",
+          },
+          "ratio2": {
+            "gradient": "#93552e",
+            "sourceLink": "showImage-1594971377633.jpg",
+          },
+          "ratio3": {
+            "gradient": "",
+            "sourceLink": "",
+          },
+        },
+        "square": {
+          "ratio1": {
+            "gradient": "#93552e",
+            "sourceLink": "showImage-1594971377633.jpg",
+          },
+        },
+        "vertical": {
+          "ratio1": {
+            "gradient": "#93552e",
+            "sourceLink": "bojh-na-hoti_har_hin_2_3.jpg",
+          },
+        },
+      },
+      "title": "Bojh Na Hoti",
+      "type": "show",
+    },
+    {
+      "_id": 13,
+      "displayLanguage": "en",
+      "displaySlug": "choriyan-bojh-na-hoti-13",
+      "format": "standard",
+      "language": "har",
+      "thumbnail": {
+        "horizontal": {
+          "ratio1": {
+            "gradient": "#92542e",
+            "sourceLink": "showImage-1588584118859.jpg",
+          },
+          "ratio2": {
+            "gradient": "#92542e",
+            "sourceLink": "showImage-1594971313892.jpg",
+          },
+          "ratio3": {
+            "gradient": "",
+            "sourceLink": "",
+          },
+        },
+        "square": {
+          "ratio1": {
+            "gradient": "#92542e",
+            "sourceLink": "showImage-1594971313892.jpg",
+          },
+        },
+        "vertical": {
+          "ratio1": {
+            "gradient": "#92542e",
+            "sourceLink": "choriyaan-bojh-na-hoti_har_eng.jpg",
+          },
+        },
+      },
+      "title": "Choriyan Bojh Na Hoti",
+      "type": "show",
+    },
+    {
+      "_id": 7,
+      "displayLanguage": "hin",
+      "displaySlug": "choriyan-bojh-na-hoti-7",
+      "format": "standard",
+      "language": "har",
+      "thumbnail": {
+        "horizontal": {
+          "ratio1": {
+            "gradient": "#93552e",
+            "sourceLink": "showImage-1588584258059.jpg",
+          },
+          "ratio2": {
+            "gradient": "#93552e",
+            "sourceLink": "showImage-1594971377633.jpg",
+          },
+          "ratio3": {
+            "gradient": "",
+            "sourceLink": "",
+          },
+        },
+        "square": {
+          "ratio1": {
+            "gradient": "#93552e",
+            "sourceLink": "showImage-1594971377633.jpg",
+          },
+        },
+        "vertical": {
+          "ratio1": {
+            "gradient": "#93552e",
+            "sourceLink": "choriyaan-bojh-na-hoti_har_hin_2_3.jpg",
+          },
+        },
+      },
+      "title": "छोरियाँ बोझ ना होती",
+      "type": "show",
+    },
+    {
+      "_id": 2413,
+      "displayLanguage": "en",
+      "displaySlug": "this-is-movie-2413",
+      "language": "har",
+      "thumbnail": {
+        "horizontal": {
+          "ratio1": {
+            "gradient": "#4a90e2",
+            "sourceLink": "sample_individual_episode_thumbnail.jpg",
+          },
+        },
+      },
+      "title": "This is movie",
+      "type": "episode",
+    },
+    {
+      "_id": 2412,
+      "displayLanguage": "en",
+      "displaySlug": "this-is-movie-2412",
+      "language": "har",
+      "thumbnail": {
+        "horizontal": {
+          "ratio1": {
+            "gradient": "#4a90e2",
+            "sourceLink": "sample_individual_episode_thumbnail.jpg",
+          },
+        },
+      },
+      "title": "This is movie",
+      "type": "episode",
+    },
+    {
+      "_id": 2411,
+      "displayLanguage": "en",
+      "displaySlug": "this-is-movie-2411",
+      "language": "har",
+      "thumbnail": {
+        "horizontal": {
+          "ratio1": {
+            "gradient": "#4a90e2",
+            "sourceLink": "sample_individual_episode_thumbnail.jpg",
+          },
+        },
+      },
+      "title": "This is movie",
+      "type": "episode",
+    },
+    {
+      "_id": 2410,
+      "displayLanguage": "en",
+      "displaySlug": "this-is-movie-2410",
+      "language": "har",
+      "thumbnail": {
+        "horizontal": {
+          "ratio1": {
+            "gradient": "#4a90e2",
+            "sourceLink": "sample_individual_episode_thumbnail.jpg",
+          },
+        },
+      },
+      "title": "This is movie",
+      "type": "episode",
+    },
+    {
+      "_id": 1711,
+      "displayLanguage": "hin",
+      "displaySlug": "hindi-movie-1711",
+      "language": "har",
+      "thumbnail": {
+        "horizontal": {
+          "ratio1": {
+            "gradient": "#92542e",
+            "sourceLink": "W0oSq5idQfz70gtohlCH.jpeg",
+          },
+        },
+      },
+      "title": "Hindi Movie",
+      "type": "episode",
+    },
+    {
+      "_id": 171,
+      "displayLanguage": "en",
+      "displaySlug": "new-kanya-ki-171",
+      "language": "har",
+      "thumbnail": {
+        "horizontal": {
+          "ratio1": {
+            "gradient": "#92542e",
+            "sourceLink": "W0oSq5idQfz70gtohlCH.jpeg",
+          },
+        },
+      },
+      "title": "New Kanya Ki",
+      "type": "episode",
+    },
+    {
+      "_id": 170,
+      "displayLanguage": "en",
+      "displaySlug": "new-kanya-ki-170",
+      "language": "har",
+      "thumbnail": {
+        "horizontal": {
+          "ratio1": {
+            "gradient": "#92542e",
+            "sourceLink": "W0oSq5idQfz70gtohlCH.jpeg",
+          },
+        },
+      },
+      "title": "New Kanya Ki",
+      "type": "episode",
+    },
+    {
+      "_id": 2,
+      "displayLanguage": "en",
+      "displaySlug": "this-is-movie-2",
+      "language": "har",
+      "thumbnail": {
+        "horizontal": {
+          "ratio1": {
+            "gradient": "#4a90e2",
+            "sourceLink": "sample_individual_episode_thumbnail.jpg",
+          },
+        },
+      },
+      "title": "This is movie",
+      "type": "episode",
+    },
+  ],
+}
+`;
+
+exports[`MODULE: All Content  Tests GET: /contents/groupByGenre should handle multiple genres correctly 1`] = `
+{
+  "genreWiseData": [
+    {
+      "genreId": 1,
+      "genreName": "Action",
+      "microdramas": [],
+      "movies": [],
+      "shows": [
+        {
+          "_id": 70,
+          "complianceRating": "",
+          "contentType": "show",
+          "description": "Test description",
+          "duration": 174,
+          "slug": "shyam-bojh-",
+          "thumbnail": {
+            "horizontal": {
+              "ratio1": {
+                "gradient": "#93552e",
+                "sourceLink": "showImage-1588584258059.jpg",
+              },
+              "ratio2": {
+                "gradient": "#93552e",
+                "sourceLink": "showImage-1594971377633.jpg",
+              },
+              "ratio3": {
+                "gradient": "",
+                "sourceLink": "",
+              },
+            },
+            "square": {
+              "ratio1": {
+                "gradient": "#93552e",
+                "sourceLink": "showImage-1594971377633.jpg",
+              },
+            },
+            "vertical": {
+              "ratio1": {
+                "gradient": "#93552e",
+                "sourceLink": "bojh-na-hoti_har_hin_2_3.jpg",
+              },
+            },
+          },
+          "title": "Bojh Na Hoti",
+        },
+      ],
+    },
+    {
+      "genreId": 2,
+      "genreName": "Comedy",
+      "microdramas": [],
+      "movies": [],
+      "shows": [
+        {
+          "_id": 70,
+          "complianceRating": "",
+          "contentType": "show",
+          "description": "Test description",
+          "duration": 174,
+          "slug": "shyam-bojh-",
+          "thumbnail": {
+            "horizontal": {
+              "ratio1": {
+                "gradient": "#93552e",
+                "sourceLink": "showImage-1588584258059.jpg",
+              },
+              "ratio2": {
+                "gradient": "#93552e",
+                "sourceLink": "showImage-1594971377633.jpg",
+              },
+              "ratio3": {
+                "gradient": "",
+                "sourceLink": "",
+              },
+            },
+            "square": {
+              "ratio1": {
+                "gradient": "#93552e",
+                "sourceLink": "showImage-1594971377633.jpg",
+              },
+            },
+            "vertical": {
+              "ratio1": {
+                "gradient": "#93552e",
+                "sourceLink": "bojh-na-hoti_har_hin_2_3.jpg",
+              },
+            },
+          },
+          "title": "Bojh Na Hoti",
+        },
+        {
+          "_id": 13,
+          "complianceRating": "",
+          "contentType": "show",
+          "description": "Haryana main saksharta dar kum hone ki wajah se log aksar ladkiyon ko ladkon se kum aankte hain...",
+          "duration": 1743,
+          "selectedPeripheral": {
+            "duration": 94,
+            "hlsSourceLink": "07j65rsnLKfpTaCTe6fR.m3u8",
+            "sourceLink": "07j65rsnLKfpTaCTe6fR.mp4",
+            "thumbnail": {
+              "horizontal": {
+                "sourceLink": "showImage-1588584164861.jpg",
+              },
+              "square": {
+                "sourceLink": "",
+              },
+              "vertical": {
+                "sourceLink": "",
+              },
+            },
+            "title": "Choriyan Bojh Na Hoti - Season 1",
+            "type": "show-peripheral",
+            "viewCount": 1622,
+            "visionularHls": {
+              "hlsSourcelink": "choriyaan-bojh-na-hoti_1674134175264/playlist.m3u8",
+              "sourceLink": "07j65rsnLKfpTaCTe6fR.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "202301191316158054445767f925131c",
+            },
+            "visionularHlsH265": {
+              "hlsSourcelink": "choriyaan-bojh-na-hoti_1674134195408/playlist.m3u8",
+              "sourceLink": "07j65rsnLKfpTaCTe6fR.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "202301191316359483898053b0491289",
+            },
+          },
+          "slug": "choriyaan-bojh-na-hoti",
+          "thumbnail": {
+            "horizontal": {
+              "ratio1": {
+                "gradient": "#92542e",
+                "sourceLink": "showImage-1588584118859.jpg",
+              },
+              "ratio2": {
+                "gradient": "#92542e",
+                "sourceLink": "showImage-1594971313892.jpg",
+              },
+              "ratio3": {
+                "gradient": "",
+                "sourceLink": "",
+              },
+              "ratio4": {
+                "gradient": "#92542e",
+                "sourceLink": "choriyaan-bojh-na-hoti_har_eng_7_2.jpg",
+              },
+            },
+            "square": {
+              "ratio1": {
+                "gradient": "#92542e",
+                "sourceLink": "showImage-1594971313892.jpg",
+              },
+            },
+            "vertical": {
+              "ratio1": {
+                "gradient": "#92542e",
+                "sourceLink": "choriyaan-bojh-na-hoti_har_eng.jpg",
+              },
+            },
+          },
+          "title": "Choriyan Bojh Na Hoti",
+        },
+      ],
+    },
+    {
+      "genreId": 3,
+      "genreName": "Drama",
+      "microdramas": [],
+      "movies": [],
+      "shows": [
+        {
+          "_id": 70,
+          "complianceRating": "",
+          "contentType": "show",
+          "description": "Test description",
+          "duration": 174,
+          "slug": "shyam-bojh-",
+          "thumbnail": {
+            "horizontal": {
+              "ratio1": {
+                "gradient": "#93552e",
+                "sourceLink": "showImage-1588584258059.jpg",
+              },
+              "ratio2": {
+                "gradient": "#93552e",
+                "sourceLink": "showImage-1594971377633.jpg",
+              },
+              "ratio3": {
+                "gradient": "",
+                "sourceLink": "",
+              },
+            },
+            "square": {
+              "ratio1": {
+                "gradient": "#93552e",
+                "sourceLink": "showImage-1594971377633.jpg",
+              },
+            },
+            "vertical": {
+              "ratio1": {
+                "gradient": "#93552e",
+                "sourceLink": "bojh-na-hoti_har_hin_2_3.jpg",
+              },
+            },
+          },
+          "title": "Bojh Na Hoti",
+        },
+      ],
+    },
+    {
+      "genreId": 1008,
+      "genreName": "Drama",
+      "microdramas": [],
+      "movies": [],
+      "shows": [
+        {
+          "_id": 443,
+          "complianceRating": "",
+          "contentType": "show",
+          "description": "Ya kahani se Sonu ki jo ek manchalya chhora se. Iss bin Maa ki chhori ki rukhal iska Babu Roshan karya kare. Roshan ka bs ek e sapna hai, Mera chhora padh-likhke khoob badiya number lyave. Isse khatar Roshan khave kamave se. Par Sonu ek bhayankar bimaari ka sikaar hojya se jisne kaya karein ISHQ. Ib Sonu Babu ka sapna pura kar pavega ya fer chhori ke sapne meh kuya ravega? Yo toh aapne puri web-series dekhe pache khud bera paat jyaga.",
+          "duration": 7807,
+          "selectedPeripheral": {
+            "duration": 165,
+            "hlsSourceLink": "VyetsWs70ysxl4Seup.m3u8",
+            "sourceLink": "VyetsWs70ysxl4Seup.mp4",
+            "thumbnail": {
+              "horizontal": {
+                "sourceLink": "showImage-1653383499279.jpg",
+              },
+              "square": {
+                "sourceLink": "",
+              },
+              "vertical": {
+                "sourceLink": "",
+              },
+            },
+            "title": "Prem Nagar - Season 2 - Trailer",
+            "type": "show-peripheral",
+            "viewCount": 0,
+            "visionularHls": {
+              "hlsSourcelink": "prem-nagar---s2_1674136766769/playlist.m3u8",
+              "sourceLink": "VyetsWs70ysxl4Seup.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "20230119135927344694050434006723",
+            },
+            "visionularHlsH265": {
+              "hlsSourcelink": "prem-nagar---s2_1674136770409/playlist.m3u8",
+              "sourceLink": "VyetsWs70ysxl4Seup.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "202301191359309584172570e6cccf1b",
+            },
+          },
+          "slug": "prem-nagar---s2",
+          "thumbnail": {
+            "horizontal": {
+              "ratio1": {
+                "gradient": "#3b3330",
+                "sourceLink": "showImage-1653383421904.jpg",
+              },
+              "ratio2": {
+                "gradient": "#3b3330",
+                "sourceLink": "showImage-1653383468824.jpg",
+              },
+              "ratio3": {
+                "gradient": "#3b3330",
+                "sourceLink": "showImage-1667983548201.jpg",
+              },
+              "ratio4": {
+                "gradient": "#3b3330",
+                "sourceLink": "prem-nagar---s2_har_eng_7_2.jpg",
+              },
+            },
+            "square": {
+              "ratio1": {
+                "gradient": "#3b3330",
+                "sourceLink": "showImage-1653383468824.jpg",
+              },
+            },
+            "vertical": {
+              "ratio1": {
+                "gradient": "#3b3330",
+                "sourceLink": "prem-nagar---s2_Har_En_2x3.jpg",
+              },
+            },
+          },
+          "title": "Prem Nagar - Season 2",
+        },
+        {
+          "_id": 309,
+          "complianceRating": "",
+          "contentType": "show",
+          "description": "Ya kahani se Sonu ki jo ek manchalya chhora se. Iss bin Maa ki chhori ki rukhal iska Babu Roshan karya kare. Roshan ka bs ek e sapna hai, Mera chhora padh-likhke khoob badiya number lyave. Isse khatar Roshan khave kamave se. Par Sonu ek bhayankar bimaari ka sikaar hojya se jisne kaya karein ISHQ. Ib Sonu Babu ka sapna pura kar pavega ya fer chhori ke sapne meh kuya ravega? Yo toh aapne puri web-series dekhe pache khud bera paat jyaga.",
+          "duration": 5502,
+          "selectedPeripheral": {
+            "duration": 172,
+            "hlsSourceLink": "diEOblOSWTrcejY7ri.m3u8",
+            "sourceLink": "diEOblOSWTrcejY7ri.mp4",
+            "thumbnail": {
+              "horizontal": {
+                "sourceLink": "showImage-1644651782793.jpg",
+              },
+              "square": {
+                "sourceLink": "",
+              },
+              "vertical": {
+                "sourceLink": "",
+              },
+            },
+            "title": "Prem Nagar - Trailer",
+            "type": "show-peripheral",
+            "viewCount": 0,
+            "visionularHls": {
+              "hlsSourcelink": "prem-nagar_1674136765608/playlist.m3u8",
+              "sourceLink": "diEOblOSWTrcejY7ri.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "20230119135926174785147eafef9203",
+            },
+            "visionularHlsH265": {
+              "hlsSourcelink": "prem-nagar_1674136762770/playlist.m3u8",
+              "sourceLink": "diEOblOSWTrcejY7ri.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "202301191359233288452711e9e44d9d",
+            },
+          },
+          "slug": "prem-nagar",
+          "thumbnail": {
+            "horizontal": {
+              "ratio1": {
+                "gradient": "#f3d36d",
+                "sourceLink": "showImage-1644651730319.jpg",
+              },
+              "ratio2": {
+                "gradient": "#f3d36d",
+                "sourceLink": "showImage-1644651758278.jpg",
+              },
+              "ratio3": {
+                "gradient": "",
+                "sourceLink": "Prem_Nagar_Eng_HAR_TV.jpg",
+              },
+              "ratio4": {
+                "gradient": "#f3d36d",
+                "sourceLink": "prem-nagar_har_eng_7_2.jpg",
+              },
+            },
+            "square": {
+              "ratio1": {
+                "gradient": "#f3d36d",
+                "sourceLink": "showImage-1644651758278.jpg",
+              },
+            },
+            "vertical": {
+              "ratio1": {
+                "gradient": "#f3d36d",
+                "sourceLink": "prem-nagar_Har_Eng2x3.jpg",
+              },
+            },
+          },
+          "title": "Prem Nagar",
+        },
+      ],
+    },
+    {
+      "genreId": 1010,
+      "genreName": "Family",
+      "microdramas": [],
+      "movies": [],
+      "shows": [
+        {
+          "_id": 443,
+          "complianceRating": "",
+          "contentType": "show",
+          "description": "Ya kahani se Sonu ki jo ek manchalya chhora se. Iss bin Maa ki chhori ki rukhal iska Babu Roshan karya kare. Roshan ka bs ek e sapna hai, Mera chhora padh-likhke khoob badiya number lyave. Isse khatar Roshan khave kamave se. Par Sonu ek bhayankar bimaari ka sikaar hojya se jisne kaya karein ISHQ. Ib Sonu Babu ka sapna pura kar pavega ya fer chhori ke sapne meh kuya ravega? Yo toh aapne puri web-series dekhe pache khud bera paat jyaga.",
+          "duration": 7807,
+          "selectedPeripheral": {
+            "duration": 165,
+            "hlsSourceLink": "VyetsWs70ysxl4Seup.m3u8",
+            "sourceLink": "VyetsWs70ysxl4Seup.mp4",
+            "thumbnail": {
+              "horizontal": {
+                "sourceLink": "showImage-1653383499279.jpg",
+              },
+              "square": {
+                "sourceLink": "",
+              },
+              "vertical": {
+                "sourceLink": "",
+              },
+            },
+            "title": "Prem Nagar - Season 2 - Trailer",
+            "type": "show-peripheral",
+            "viewCount": 0,
+            "visionularHls": {
+              "hlsSourcelink": "prem-nagar---s2_1674136766769/playlist.m3u8",
+              "sourceLink": "VyetsWs70ysxl4Seup.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "20230119135927344694050434006723",
+            },
+            "visionularHlsH265": {
+              "hlsSourcelink": "prem-nagar---s2_1674136770409/playlist.m3u8",
+              "sourceLink": "VyetsWs70ysxl4Seup.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "202301191359309584172570e6cccf1b",
+            },
+          },
+          "slug": "prem-nagar---s2",
+          "thumbnail": {
+            "horizontal": {
+              "ratio1": {
+                "gradient": "#3b3330",
+                "sourceLink": "showImage-1653383421904.jpg",
+              },
+              "ratio2": {
+                "gradient": "#3b3330",
+                "sourceLink": "showImage-1653383468824.jpg",
+              },
+              "ratio3": {
+                "gradient": "#3b3330",
+                "sourceLink": "showImage-1667983548201.jpg",
+              },
+              "ratio4": {
+                "gradient": "#3b3330",
+                "sourceLink": "prem-nagar---s2_har_eng_7_2.jpg",
+              },
+            },
+            "square": {
+              "ratio1": {
+                "gradient": "#3b3330",
+                "sourceLink": "showImage-1653383468824.jpg",
+              },
+            },
+            "vertical": {
+              "ratio1": {
+                "gradient": "#3b3330",
+                "sourceLink": "prem-nagar---s2_Har_En_2x3.jpg",
+              },
+            },
+          },
+          "title": "Prem Nagar - Season 2",
+        },
+        {
+          "_id": 309,
+          "complianceRating": "",
+          "contentType": "show",
+          "description": "Ya kahani se Sonu ki jo ek manchalya chhora se. Iss bin Maa ki chhori ki rukhal iska Babu Roshan karya kare. Roshan ka bs ek e sapna hai, Mera chhora padh-likhke khoob badiya number lyave. Isse khatar Roshan khave kamave se. Par Sonu ek bhayankar bimaari ka sikaar hojya se jisne kaya karein ISHQ. Ib Sonu Babu ka sapna pura kar pavega ya fer chhori ke sapne meh kuya ravega? Yo toh aapne puri web-series dekhe pache khud bera paat jyaga.",
+          "duration": 5502,
+          "selectedPeripheral": {
+            "duration": 172,
+            "hlsSourceLink": "diEOblOSWTrcejY7ri.m3u8",
+            "sourceLink": "diEOblOSWTrcejY7ri.mp4",
+            "thumbnail": {
+              "horizontal": {
+                "sourceLink": "showImage-1644651782793.jpg",
+              },
+              "square": {
+                "sourceLink": "",
+              },
+              "vertical": {
+                "sourceLink": "",
+              },
+            },
+            "title": "Prem Nagar - Trailer",
+            "type": "show-peripheral",
+            "viewCount": 0,
+            "visionularHls": {
+              "hlsSourcelink": "prem-nagar_1674136765608/playlist.m3u8",
+              "sourceLink": "diEOblOSWTrcejY7ri.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "20230119135926174785147eafef9203",
+            },
+            "visionularHlsH265": {
+              "hlsSourcelink": "prem-nagar_1674136762770/playlist.m3u8",
+              "sourceLink": "diEOblOSWTrcejY7ri.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "202301191359233288452711e9e44d9d",
+            },
+          },
+          "slug": "prem-nagar",
+          "thumbnail": {
+            "horizontal": {
+              "ratio1": {
+                "gradient": "#f3d36d",
+                "sourceLink": "showImage-1644651730319.jpg",
+              },
+              "ratio2": {
+                "gradient": "#f3d36d",
+                "sourceLink": "showImage-1644651758278.jpg",
+              },
+              "ratio3": {
+                "gradient": "",
+                "sourceLink": "Prem_Nagar_Eng_HAR_TV.jpg",
+              },
+              "ratio4": {
+                "gradient": "#f3d36d",
+                "sourceLink": "prem-nagar_har_eng_7_2.jpg",
+              },
+            },
+            "square": {
+              "ratio1": {
+                "gradient": "#f3d36d",
+                "sourceLink": "showImage-1644651758278.jpg",
+              },
+            },
+            "vertical": {
+              "ratio1": {
+                "gradient": "#f3d36d",
+                "sourceLink": "prem-nagar_Har_Eng2x3.jpg",
+              },
+            },
+          },
+          "title": "Prem Nagar",
+        },
+      ],
+    },
+    {
+      "genreId": 1012,
+      "genreName": "Folk",
+      "microdramas": [],
+      "movies": [],
+      "shows": [
+        {
+          "_id": 13,
+          "complianceRating": "",
+          "contentType": "show",
+          "description": "Haryana main saksharta dar kum hone ki wajah se log aksar ladkiyon ko ladkon se kum aankte hain...",
+          "duration": 1743,
+          "selectedPeripheral": {
+            "duration": 94,
+            "hlsSourceLink": "07j65rsnLKfpTaCTe6fR.m3u8",
+            "sourceLink": "07j65rsnLKfpTaCTe6fR.mp4",
+            "thumbnail": {
+              "horizontal": {
+                "sourceLink": "showImage-1588584164861.jpg",
+              },
+              "square": {
+                "sourceLink": "",
+              },
+              "vertical": {
+                "sourceLink": "",
+              },
+            },
+            "title": "Choriyan Bojh Na Hoti - Season 1",
+            "type": "show-peripheral",
+            "viewCount": 1622,
+            "visionularHls": {
+              "hlsSourcelink": "choriyaan-bojh-na-hoti_1674134175264/playlist.m3u8",
+              "sourceLink": "07j65rsnLKfpTaCTe6fR.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "202301191316158054445767f925131c",
+            },
+            "visionularHlsH265": {
+              "hlsSourcelink": "choriyaan-bojh-na-hoti_1674134195408/playlist.m3u8",
+              "sourceLink": "07j65rsnLKfpTaCTe6fR.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "202301191316359483898053b0491289",
+            },
+          },
+          "slug": "choriyaan-bojh-na-hoti",
+          "thumbnail": {
+            "horizontal": {
+              "ratio1": {
+                "gradient": "#92542e",
+                "sourceLink": "showImage-1588584118859.jpg",
+              },
+              "ratio2": {
+                "gradient": "#92542e",
+                "sourceLink": "showImage-1594971313892.jpg",
+              },
+              "ratio3": {
+                "gradient": "",
+                "sourceLink": "",
+              },
+              "ratio4": {
+                "gradient": "#92542e",
+                "sourceLink": "choriyaan-bojh-na-hoti_har_eng_7_2.jpg",
+              },
+            },
+            "square": {
+              "ratio1": {
+                "gradient": "#92542e",
+                "sourceLink": "showImage-1594971313892.jpg",
+              },
+            },
+            "vertical": {
+              "ratio1": {
+                "gradient": "#92542e",
+                "sourceLink": "choriyaan-bojh-na-hoti_har_eng.jpg",
+              },
+            },
+          },
+          "title": "Choriyan Bojh Na Hoti",
+        },
+      ],
+    },
+    {
+      "genreId": 1015,
+      "genreName": "Music",
+      "microdramas": [],
+      "movies": [],
+      "shows": [
+        {
+          "_id": 13,
+          "complianceRating": "",
+          "contentType": "show",
+          "description": "Haryana main saksharta dar kum hone ki wajah se log aksar ladkiyon ko ladkon se kum aankte hain...",
+          "duration": 1743,
+          "selectedPeripheral": {
+            "duration": 94,
+            "hlsSourceLink": "07j65rsnLKfpTaCTe6fR.m3u8",
+            "sourceLink": "07j65rsnLKfpTaCTe6fR.mp4",
+            "thumbnail": {
+              "horizontal": {
+                "sourceLink": "showImage-1588584164861.jpg",
+              },
+              "square": {
+                "sourceLink": "",
+              },
+              "vertical": {
+                "sourceLink": "",
+              },
+            },
+            "title": "Choriyan Bojh Na Hoti - Season 1",
+            "type": "show-peripheral",
+            "viewCount": 1622,
+            "visionularHls": {
+              "hlsSourcelink": "choriyaan-bojh-na-hoti_1674134175264/playlist.m3u8",
+              "sourceLink": "07j65rsnLKfpTaCTe6fR.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "202301191316158054445767f925131c",
+            },
+            "visionularHlsH265": {
+              "hlsSourcelink": "choriyaan-bojh-na-hoti_1674134195408/playlist.m3u8",
+              "sourceLink": "07j65rsnLKfpTaCTe6fR.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "202301191316359483898053b0491289",
+            },
+          },
+          "slug": "choriyaan-bojh-na-hoti",
+          "thumbnail": {
+            "horizontal": {
+              "ratio1": {
+                "gradient": "#92542e",
+                "sourceLink": "showImage-1588584118859.jpg",
+              },
+              "ratio2": {
+                "gradient": "#92542e",
+                "sourceLink": "showImage-1594971313892.jpg",
+              },
+              "ratio3": {
+                "gradient": "",
+                "sourceLink": "",
+              },
+              "ratio4": {
+                "gradient": "#92542e",
+                "sourceLink": "choriyaan-bojh-na-hoti_har_eng_7_2.jpg",
+              },
+            },
+            "square": {
+              "ratio1": {
+                "gradient": "#92542e",
+                "sourceLink": "showImage-1594971313892.jpg",
+              },
+            },
+            "vertical": {
+              "ratio1": {
+                "gradient": "#92542e",
+                "sourceLink": "choriyaan-bojh-na-hoti_har_eng.jpg",
+              },
+            },
+          },
+          "title": "Choriyan Bojh Na Hoti",
+        },
+      ],
+    },
+    {
+      "genreId": 1024,
+      "genreName": "Romance",
+      "microdramas": [],
+      "movies": [],
+      "shows": [
+        {
+          "_id": 443,
+          "complianceRating": "",
+          "contentType": "show",
+          "description": "Ya kahani se Sonu ki jo ek manchalya chhora se. Iss bin Maa ki chhori ki rukhal iska Babu Roshan karya kare. Roshan ka bs ek e sapna hai, Mera chhora padh-likhke khoob badiya number lyave. Isse khatar Roshan khave kamave se. Par Sonu ek bhayankar bimaari ka sikaar hojya se jisne kaya karein ISHQ. Ib Sonu Babu ka sapna pura kar pavega ya fer chhori ke sapne meh kuya ravega? Yo toh aapne puri web-series dekhe pache khud bera paat jyaga.",
+          "duration": 7807,
+          "selectedPeripheral": {
+            "duration": 165,
+            "hlsSourceLink": "VyetsWs70ysxl4Seup.m3u8",
+            "sourceLink": "VyetsWs70ysxl4Seup.mp4",
+            "thumbnail": {
+              "horizontal": {
+                "sourceLink": "showImage-1653383499279.jpg",
+              },
+              "square": {
+                "sourceLink": "",
+              },
+              "vertical": {
+                "sourceLink": "",
+              },
+            },
+            "title": "Prem Nagar - Season 2 - Trailer",
+            "type": "show-peripheral",
+            "viewCount": 0,
+            "visionularHls": {
+              "hlsSourcelink": "prem-nagar---s2_1674136766769/playlist.m3u8",
+              "sourceLink": "VyetsWs70ysxl4Seup.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "20230119135927344694050434006723",
+            },
+            "visionularHlsH265": {
+              "hlsSourcelink": "prem-nagar---s2_1674136770409/playlist.m3u8",
+              "sourceLink": "VyetsWs70ysxl4Seup.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "202301191359309584172570e6cccf1b",
+            },
+          },
+          "slug": "prem-nagar---s2",
+          "thumbnail": {
+            "horizontal": {
+              "ratio1": {
+                "gradient": "#3b3330",
+                "sourceLink": "showImage-1653383421904.jpg",
+              },
+              "ratio2": {
+                "gradient": "#3b3330",
+                "sourceLink": "showImage-1653383468824.jpg",
+              },
+              "ratio3": {
+                "gradient": "#3b3330",
+                "sourceLink": "showImage-1667983548201.jpg",
+              },
+              "ratio4": {
+                "gradient": "#3b3330",
+                "sourceLink": "prem-nagar---s2_har_eng_7_2.jpg",
+              },
+            },
+            "square": {
+              "ratio1": {
+                "gradient": "#3b3330",
+                "sourceLink": "showImage-1653383468824.jpg",
+              },
+            },
+            "vertical": {
+              "ratio1": {
+                "gradient": "#3b3330",
+                "sourceLink": "prem-nagar---s2_Har_En_2x3.jpg",
+              },
+            },
+          },
+          "title": "Prem Nagar - Season 2",
+        },
+        {
+          "_id": 309,
+          "complianceRating": "",
+          "contentType": "show",
+          "description": "Ya kahani se Sonu ki jo ek manchalya chhora se. Iss bin Maa ki chhori ki rukhal iska Babu Roshan karya kare. Roshan ka bs ek e sapna hai, Mera chhora padh-likhke khoob badiya number lyave. Isse khatar Roshan khave kamave se. Par Sonu ek bhayankar bimaari ka sikaar hojya se jisne kaya karein ISHQ. Ib Sonu Babu ka sapna pura kar pavega ya fer chhori ke sapne meh kuya ravega? Yo toh aapne puri web-series dekhe pache khud bera paat jyaga.",
+          "duration": 5502,
+          "selectedPeripheral": {
+            "duration": 172,
+            "hlsSourceLink": "diEOblOSWTrcejY7ri.m3u8",
+            "sourceLink": "diEOblOSWTrcejY7ri.mp4",
+            "thumbnail": {
+              "horizontal": {
+                "sourceLink": "showImage-1644651782793.jpg",
+              },
+              "square": {
+                "sourceLink": "",
+              },
+              "vertical": {
+                "sourceLink": "",
+              },
+            },
+            "title": "Prem Nagar - Trailer",
+            "type": "show-peripheral",
+            "viewCount": 0,
+            "visionularHls": {
+              "hlsSourcelink": "prem-nagar_1674136765608/playlist.m3u8",
+              "sourceLink": "diEOblOSWTrcejY7ri.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "20230119135926174785147eafef9203",
+            },
+            "visionularHlsH265": {
+              "hlsSourcelink": "prem-nagar_1674136762770/playlist.m3u8",
+              "sourceLink": "diEOblOSWTrcejY7ri.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "202301191359233288452711e9e44d9d",
+            },
+          },
+          "slug": "prem-nagar",
+          "thumbnail": {
+            "horizontal": {
+              "ratio1": {
+                "gradient": "#f3d36d",
+                "sourceLink": "showImage-1644651730319.jpg",
+              },
+              "ratio2": {
+                "gradient": "#f3d36d",
+                "sourceLink": "showImage-1644651758278.jpg",
+              },
+              "ratio3": {
+                "gradient": "",
+                "sourceLink": "Prem_Nagar_Eng_HAR_TV.jpg",
+              },
+              "ratio4": {
+                "gradient": "#f3d36d",
+                "sourceLink": "prem-nagar_har_eng_7_2.jpg",
+              },
+            },
+            "square": {
+              "ratio1": {
+                "gradient": "#f3d36d",
+                "sourceLink": "showImage-1644651758278.jpg",
+              },
+            },
+            "vertical": {
+              "ratio1": {
+                "gradient": "#f3d36d",
+                "sourceLink": "prem-nagar_Har_Eng2x3.jpg",
+              },
+            },
+          },
+          "title": "Prem Nagar",
+        },
+      ],
+    },
+  ],
+  "top10Microdramas": {
+    "data": [],
+    "title": "Top 10 Microdramas",
+  },
+  "trendingMicrodramas": {
+    "data": [],
+    "title": "Trending Microdramas",
+  },
+}
+`;
+
+exports[`MODULE: All Content  Tests GET: /contents/groupByGenre should return genre data for a specific dialect and language 1`] = `
+{
+  "genreWiseData": [
+    {
+      "genreId": 1,
+      "genreName": "Action",
+      "microdramas": [],
+      "movies": [],
+      "shows": [
+        {
+          "_id": 70,
+          "complianceRating": "",
+          "contentType": "show",
+          "description": "Test description",
+          "duration": 174,
+          "slug": "shyam-bojh-",
+          "thumbnail": {
+            "horizontal": {
+              "ratio1": {
+                "gradient": "#93552e",
+                "sourceLink": "showImage-1588584258059.jpg",
+              },
+              "ratio2": {
+                "gradient": "#93552e",
+                "sourceLink": "showImage-1594971377633.jpg",
+              },
+              "ratio3": {
+                "gradient": "",
+                "sourceLink": "",
+              },
+            },
+            "square": {
+              "ratio1": {
+                "gradient": "#93552e",
+                "sourceLink": "showImage-1594971377633.jpg",
+              },
+            },
+            "vertical": {
+              "ratio1": {
+                "gradient": "#93552e",
+                "sourceLink": "bojh-na-hoti_har_hin_2_3.jpg",
+              },
+            },
+          },
+          "title": "Bojh Na Hoti",
+        },
+      ],
+    },
+  ],
+  "top10Microdramas": {
+    "data": [],
+    "title": "Top 10 Microdramas",
+  },
+  "trendingMicrodramas": {
+    "data": [],
+    "title": "Trending Microdramas",
+  },
+}
+`;
+
+exports[`MODULE: All Content  Tests GET: /contents/groupByGenre should return genre data for a specific dialect, language and movie 1`] = `
+{
+  "genreWiseData": [],
+  "top10Microdramas": {
+    "data": [],
+    "title": "Top 10 Microdramas",
+  },
+  "trendingMicrodramas": {
+    "data": [],
+    "title": "Trending Microdramas",
+  },
+}
+`;
+
+exports[`MODULE: All Content  Tests GET: /contents/groupByGenre should return genre data for a specific dialect, language and show 1`] = `
+{
+  "genreWiseData": [
+    {
+      "genreId": 1,
+      "genreName": "Action",
+      "microdramas": [],
+      "movies": [],
+      "shows": [
+        {
+          "_id": 70,
+          "complianceRating": "",
+          "contentType": "show",
+          "description": "Test description",
+          "duration": 174,
+          "slug": "shyam-bojh-",
+          "thumbnail": {
+            "horizontal": {
+              "ratio1": {
+                "gradient": "#93552e",
+                "sourceLink": "showImage-1588584258059.jpg",
+              },
+              "ratio2": {
+                "gradient": "#93552e",
+                "sourceLink": "showImage-1594971377633.jpg",
+              },
+              "ratio3": {
+                "gradient": "",
+                "sourceLink": "",
+              },
+            },
+            "square": {
+              "ratio1": {
+                "gradient": "#93552e",
+                "sourceLink": "showImage-1594971377633.jpg",
+              },
+            },
+            "vertical": {
+              "ratio1": {
+                "gradient": "#93552e",
+                "sourceLink": "bojh-na-hoti_har_hin_2_3.jpg",
+              },
+            },
+          },
+          "title": "Bojh Na Hoti",
+        },
+      ],
+    },
+    {
+      "genreId": 2,
+      "genreName": "Comedy",
+      "microdramas": [],
+      "movies": [],
+      "shows": [
+        {
+          "_id": 70,
+          "complianceRating": "",
+          "contentType": "show",
+          "description": "Test description",
+          "duration": 174,
+          "slug": "shyam-bojh-",
+          "thumbnail": {
+            "horizontal": {
+              "ratio1": {
+                "gradient": "#93552e",
+                "sourceLink": "showImage-1588584258059.jpg",
+              },
+              "ratio2": {
+                "gradient": "#93552e",
+                "sourceLink": "showImage-1594971377633.jpg",
+              },
+              "ratio3": {
+                "gradient": "",
+                "sourceLink": "",
+              },
+            },
+            "square": {
+              "ratio1": {
+                "gradient": "#93552e",
+                "sourceLink": "showImage-1594971377633.jpg",
+              },
+            },
+            "vertical": {
+              "ratio1": {
+                "gradient": "#93552e",
+                "sourceLink": "bojh-na-hoti_har_hin_2_3.jpg",
+              },
+            },
+          },
+          "title": "Bojh Na Hoti",
+        },
+        {
+          "_id": 13,
+          "complianceRating": "",
+          "contentType": "show",
+          "description": "Haryana main saksharta dar kum hone ki wajah se log aksar ladkiyon ko ladkon se kum aankte hain...",
+          "duration": 1743,
+          "selectedPeripheral": {
+            "duration": 94,
+            "hlsSourceLink": "07j65rsnLKfpTaCTe6fR.m3u8",
+            "sourceLink": "07j65rsnLKfpTaCTe6fR.mp4",
+            "thumbnail": {
+              "horizontal": {
+                "sourceLink": "showImage-1588584164861.jpg",
+              },
+              "square": {
+                "sourceLink": "",
+              },
+              "vertical": {
+                "sourceLink": "",
+              },
+            },
+            "title": "Choriyan Bojh Na Hoti - Season 1",
+            "type": "show-peripheral",
+            "viewCount": 1622,
+            "visionularHls": {
+              "hlsSourcelink": "choriyaan-bojh-na-hoti_1674134175264/playlist.m3u8",
+              "sourceLink": "07j65rsnLKfpTaCTe6fR.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "202301191316158054445767f925131c",
+            },
+            "visionularHlsH265": {
+              "hlsSourcelink": "choriyaan-bojh-na-hoti_1674134195408/playlist.m3u8",
+              "sourceLink": "07j65rsnLKfpTaCTe6fR.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "202301191316359483898053b0491289",
+            },
+          },
+          "slug": "choriyaan-bojh-na-hoti",
+          "thumbnail": {
+            "horizontal": {
+              "ratio1": {
+                "gradient": "#92542e",
+                "sourceLink": "showImage-1588584118859.jpg",
+              },
+              "ratio2": {
+                "gradient": "#92542e",
+                "sourceLink": "showImage-1594971313892.jpg",
+              },
+              "ratio3": {
+                "gradient": "",
+                "sourceLink": "",
+              },
+              "ratio4": {
+                "gradient": "#92542e",
+                "sourceLink": "choriyaan-bojh-na-hoti_har_eng_7_2.jpg",
+              },
+            },
+            "square": {
+              "ratio1": {
+                "gradient": "#92542e",
+                "sourceLink": "showImage-1594971313892.jpg",
+              },
+            },
+            "vertical": {
+              "ratio1": {
+                "gradient": "#92542e",
+                "sourceLink": "choriyaan-bojh-na-hoti_har_eng.jpg",
+              },
+            },
+          },
+          "title": "Choriyan Bojh Na Hoti",
+        },
+      ],
+    },
+    {
+      "genreId": 3,
+      "genreName": "Drama",
+      "microdramas": [],
+      "movies": [],
+      "shows": [
+        {
+          "_id": 70,
+          "complianceRating": "",
+          "contentType": "show",
+          "description": "Test description",
+          "duration": 174,
+          "slug": "shyam-bojh-",
+          "thumbnail": {
+            "horizontal": {
+              "ratio1": {
+                "gradient": "#93552e",
+                "sourceLink": "showImage-1588584258059.jpg",
+              },
+              "ratio2": {
+                "gradient": "#93552e",
+                "sourceLink": "showImage-1594971377633.jpg",
+              },
+              "ratio3": {
+                "gradient": "",
+                "sourceLink": "",
+              },
+            },
+            "square": {
+              "ratio1": {
+                "gradient": "#93552e",
+                "sourceLink": "showImage-1594971377633.jpg",
+              },
+            },
+            "vertical": {
+              "ratio1": {
+                "gradient": "#93552e",
+                "sourceLink": "bojh-na-hoti_har_hin_2_3.jpg",
+              },
+            },
+          },
+          "title": "Bojh Na Hoti",
+        },
+      ],
+    },
+    {
+      "genreId": 1008,
+      "genreName": "Drama",
+      "microdramas": [],
+      "movies": [],
+      "shows": [
+        {
+          "_id": 443,
+          "complianceRating": "",
+          "contentType": "show",
+          "description": "Ya kahani se Sonu ki jo ek manchalya chhora se. Iss bin Maa ki chhori ki rukhal iska Babu Roshan karya kare. Roshan ka bs ek e sapna hai, Mera chhora padh-likhke khoob badiya number lyave. Isse khatar Roshan khave kamave se. Par Sonu ek bhayankar bimaari ka sikaar hojya se jisne kaya karein ISHQ. Ib Sonu Babu ka sapna pura kar pavega ya fer chhori ke sapne meh kuya ravega? Yo toh aapne puri web-series dekhe pache khud bera paat jyaga.",
+          "duration": 7807,
+          "selectedPeripheral": {
+            "duration": 165,
+            "hlsSourceLink": "VyetsWs70ysxl4Seup.m3u8",
+            "sourceLink": "VyetsWs70ysxl4Seup.mp4",
+            "thumbnail": {
+              "horizontal": {
+                "sourceLink": "showImage-1653383499279.jpg",
+              },
+              "square": {
+                "sourceLink": "",
+              },
+              "vertical": {
+                "sourceLink": "",
+              },
+            },
+            "title": "Prem Nagar - Season 2 - Trailer",
+            "type": "show-peripheral",
+            "viewCount": 0,
+            "visionularHls": {
+              "hlsSourcelink": "prem-nagar---s2_1674136766769/playlist.m3u8",
+              "sourceLink": "VyetsWs70ysxl4Seup.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "20230119135927344694050434006723",
+            },
+            "visionularHlsH265": {
+              "hlsSourcelink": "prem-nagar---s2_1674136770409/playlist.m3u8",
+              "sourceLink": "VyetsWs70ysxl4Seup.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "202301191359309584172570e6cccf1b",
+            },
+          },
+          "slug": "prem-nagar---s2",
+          "thumbnail": {
+            "horizontal": {
+              "ratio1": {
+                "gradient": "#3b3330",
+                "sourceLink": "showImage-1653383421904.jpg",
+              },
+              "ratio2": {
+                "gradient": "#3b3330",
+                "sourceLink": "showImage-1653383468824.jpg",
+              },
+              "ratio3": {
+                "gradient": "#3b3330",
+                "sourceLink": "showImage-1667983548201.jpg",
+              },
+              "ratio4": {
+                "gradient": "#3b3330",
+                "sourceLink": "prem-nagar---s2_har_eng_7_2.jpg",
+              },
+            },
+            "square": {
+              "ratio1": {
+                "gradient": "#3b3330",
+                "sourceLink": "showImage-1653383468824.jpg",
+              },
+            },
+            "vertical": {
+              "ratio1": {
+                "gradient": "#3b3330",
+                "sourceLink": "prem-nagar---s2_Har_En_2x3.jpg",
+              },
+            },
+          },
+          "title": "Prem Nagar - Season 2",
+        },
+        {
+          "_id": 309,
+          "complianceRating": "",
+          "contentType": "show",
+          "description": "Ya kahani se Sonu ki jo ek manchalya chhora se. Iss bin Maa ki chhori ki rukhal iska Babu Roshan karya kare. Roshan ka bs ek e sapna hai, Mera chhora padh-likhke khoob badiya number lyave. Isse khatar Roshan khave kamave se. Par Sonu ek bhayankar bimaari ka sikaar hojya se jisne kaya karein ISHQ. Ib Sonu Babu ka sapna pura kar pavega ya fer chhori ke sapne meh kuya ravega? Yo toh aapne puri web-series dekhe pache khud bera paat jyaga.",
+          "duration": 5502,
+          "selectedPeripheral": {
+            "duration": 172,
+            "hlsSourceLink": "diEOblOSWTrcejY7ri.m3u8",
+            "sourceLink": "diEOblOSWTrcejY7ri.mp4",
+            "thumbnail": {
+              "horizontal": {
+                "sourceLink": "showImage-1644651782793.jpg",
+              },
+              "square": {
+                "sourceLink": "",
+              },
+              "vertical": {
+                "sourceLink": "",
+              },
+            },
+            "title": "Prem Nagar - Trailer",
+            "type": "show-peripheral",
+            "viewCount": 0,
+            "visionularHls": {
+              "hlsSourcelink": "prem-nagar_1674136765608/playlist.m3u8",
+              "sourceLink": "diEOblOSWTrcejY7ri.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "20230119135926174785147eafef9203",
+            },
+            "visionularHlsH265": {
+              "hlsSourcelink": "prem-nagar_1674136762770/playlist.m3u8",
+              "sourceLink": "diEOblOSWTrcejY7ri.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "202301191359233288452711e9e44d9d",
+            },
+          },
+          "slug": "prem-nagar",
+          "thumbnail": {
+            "horizontal": {
+              "ratio1": {
+                "gradient": "#f3d36d",
+                "sourceLink": "showImage-1644651730319.jpg",
+              },
+              "ratio2": {
+                "gradient": "#f3d36d",
+                "sourceLink": "showImage-1644651758278.jpg",
+              },
+              "ratio3": {
+                "gradient": "",
+                "sourceLink": "Prem_Nagar_Eng_HAR_TV.jpg",
+              },
+              "ratio4": {
+                "gradient": "#f3d36d",
+                "sourceLink": "prem-nagar_har_eng_7_2.jpg",
+              },
+            },
+            "square": {
+              "ratio1": {
+                "gradient": "#f3d36d",
+                "sourceLink": "showImage-1644651758278.jpg",
+              },
+            },
+            "vertical": {
+              "ratio1": {
+                "gradient": "#f3d36d",
+                "sourceLink": "prem-nagar_Har_Eng2x3.jpg",
+              },
+            },
+          },
+          "title": "Prem Nagar",
+        },
+      ],
+    },
+    {
+      "genreId": 1010,
+      "genreName": "Family",
+      "microdramas": [],
+      "movies": [],
+      "shows": [
+        {
+          "_id": 443,
+          "complianceRating": "",
+          "contentType": "show",
+          "description": "Ya kahani se Sonu ki jo ek manchalya chhora se. Iss bin Maa ki chhori ki rukhal iska Babu Roshan karya kare. Roshan ka bs ek e sapna hai, Mera chhora padh-likhke khoob badiya number lyave. Isse khatar Roshan khave kamave se. Par Sonu ek bhayankar bimaari ka sikaar hojya se jisne kaya karein ISHQ. Ib Sonu Babu ka sapna pura kar pavega ya fer chhori ke sapne meh kuya ravega? Yo toh aapne puri web-series dekhe pache khud bera paat jyaga.",
+          "duration": 7807,
+          "selectedPeripheral": {
+            "duration": 165,
+            "hlsSourceLink": "VyetsWs70ysxl4Seup.m3u8",
+            "sourceLink": "VyetsWs70ysxl4Seup.mp4",
+            "thumbnail": {
+              "horizontal": {
+                "sourceLink": "showImage-1653383499279.jpg",
+              },
+              "square": {
+                "sourceLink": "",
+              },
+              "vertical": {
+                "sourceLink": "",
+              },
+            },
+            "title": "Prem Nagar - Season 2 - Trailer",
+            "type": "show-peripheral",
+            "viewCount": 0,
+            "visionularHls": {
+              "hlsSourcelink": "prem-nagar---s2_1674136766769/playlist.m3u8",
+              "sourceLink": "VyetsWs70ysxl4Seup.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "20230119135927344694050434006723",
+            },
+            "visionularHlsH265": {
+              "hlsSourcelink": "prem-nagar---s2_1674136770409/playlist.m3u8",
+              "sourceLink": "VyetsWs70ysxl4Seup.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "202301191359309584172570e6cccf1b",
+            },
+          },
+          "slug": "prem-nagar---s2",
+          "thumbnail": {
+            "horizontal": {
+              "ratio1": {
+                "gradient": "#3b3330",
+                "sourceLink": "showImage-1653383421904.jpg",
+              },
+              "ratio2": {
+                "gradient": "#3b3330",
+                "sourceLink": "showImage-1653383468824.jpg",
+              },
+              "ratio3": {
+                "gradient": "#3b3330",
+                "sourceLink": "showImage-1667983548201.jpg",
+              },
+              "ratio4": {
+                "gradient": "#3b3330",
+                "sourceLink": "prem-nagar---s2_har_eng_7_2.jpg",
+              },
+            },
+            "square": {
+              "ratio1": {
+                "gradient": "#3b3330",
+                "sourceLink": "showImage-1653383468824.jpg",
+              },
+            },
+            "vertical": {
+              "ratio1": {
+                "gradient": "#3b3330",
+                "sourceLink": "prem-nagar---s2_Har_En_2x3.jpg",
+              },
+            },
+          },
+          "title": "Prem Nagar - Season 2",
+        },
+        {
+          "_id": 309,
+          "complianceRating": "",
+          "contentType": "show",
+          "description": "Ya kahani se Sonu ki jo ek manchalya chhora se. Iss bin Maa ki chhori ki rukhal iska Babu Roshan karya kare. Roshan ka bs ek e sapna hai, Mera chhora padh-likhke khoob badiya number lyave. Isse khatar Roshan khave kamave se. Par Sonu ek bhayankar bimaari ka sikaar hojya se jisne kaya karein ISHQ. Ib Sonu Babu ka sapna pura kar pavega ya fer chhori ke sapne meh kuya ravega? Yo toh aapne puri web-series dekhe pache khud bera paat jyaga.",
+          "duration": 5502,
+          "selectedPeripheral": {
+            "duration": 172,
+            "hlsSourceLink": "diEOblOSWTrcejY7ri.m3u8",
+            "sourceLink": "diEOblOSWTrcejY7ri.mp4",
+            "thumbnail": {
+              "horizontal": {
+                "sourceLink": "showImage-1644651782793.jpg",
+              },
+              "square": {
+                "sourceLink": "",
+              },
+              "vertical": {
+                "sourceLink": "",
+              },
+            },
+            "title": "Prem Nagar - Trailer",
+            "type": "show-peripheral",
+            "viewCount": 0,
+            "visionularHls": {
+              "hlsSourcelink": "prem-nagar_1674136765608/playlist.m3u8",
+              "sourceLink": "diEOblOSWTrcejY7ri.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "20230119135926174785147eafef9203",
+            },
+            "visionularHlsH265": {
+              "hlsSourcelink": "prem-nagar_1674136762770/playlist.m3u8",
+              "sourceLink": "diEOblOSWTrcejY7ri.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "202301191359233288452711e9e44d9d",
+            },
+          },
+          "slug": "prem-nagar",
+          "thumbnail": {
+            "horizontal": {
+              "ratio1": {
+                "gradient": "#f3d36d",
+                "sourceLink": "showImage-1644651730319.jpg",
+              },
+              "ratio2": {
+                "gradient": "#f3d36d",
+                "sourceLink": "showImage-1644651758278.jpg",
+              },
+              "ratio3": {
+                "gradient": "",
+                "sourceLink": "Prem_Nagar_Eng_HAR_TV.jpg",
+              },
+              "ratio4": {
+                "gradient": "#f3d36d",
+                "sourceLink": "prem-nagar_har_eng_7_2.jpg",
+              },
+            },
+            "square": {
+              "ratio1": {
+                "gradient": "#f3d36d",
+                "sourceLink": "showImage-1644651758278.jpg",
+              },
+            },
+            "vertical": {
+              "ratio1": {
+                "gradient": "#f3d36d",
+                "sourceLink": "prem-nagar_Har_Eng2x3.jpg",
+              },
+            },
+          },
+          "title": "Prem Nagar",
+        },
+      ],
+    },
+    {
+      "genreId": 1012,
+      "genreName": "Folk",
+      "microdramas": [],
+      "movies": [],
+      "shows": [
+        {
+          "_id": 13,
+          "complianceRating": "",
+          "contentType": "show",
+          "description": "Haryana main saksharta dar kum hone ki wajah se log aksar ladkiyon ko ladkon se kum aankte hain...",
+          "duration": 1743,
+          "selectedPeripheral": {
+            "duration": 94,
+            "hlsSourceLink": "07j65rsnLKfpTaCTe6fR.m3u8",
+            "sourceLink": "07j65rsnLKfpTaCTe6fR.mp4",
+            "thumbnail": {
+              "horizontal": {
+                "sourceLink": "showImage-1588584164861.jpg",
+              },
+              "square": {
+                "sourceLink": "",
+              },
+              "vertical": {
+                "sourceLink": "",
+              },
+            },
+            "title": "Choriyan Bojh Na Hoti - Season 1",
+            "type": "show-peripheral",
+            "viewCount": 1622,
+            "visionularHls": {
+              "hlsSourcelink": "choriyaan-bojh-na-hoti_1674134175264/playlist.m3u8",
+              "sourceLink": "07j65rsnLKfpTaCTe6fR.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "202301191316158054445767f925131c",
+            },
+            "visionularHlsH265": {
+              "hlsSourcelink": "choriyaan-bojh-na-hoti_1674134195408/playlist.m3u8",
+              "sourceLink": "07j65rsnLKfpTaCTe6fR.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "202301191316359483898053b0491289",
+            },
+          },
+          "slug": "choriyaan-bojh-na-hoti",
+          "thumbnail": {
+            "horizontal": {
+              "ratio1": {
+                "gradient": "#92542e",
+                "sourceLink": "showImage-1588584118859.jpg",
+              },
+              "ratio2": {
+                "gradient": "#92542e",
+                "sourceLink": "showImage-1594971313892.jpg",
+              },
+              "ratio3": {
+                "gradient": "",
+                "sourceLink": "",
+              },
+              "ratio4": {
+                "gradient": "#92542e",
+                "sourceLink": "choriyaan-bojh-na-hoti_har_eng_7_2.jpg",
+              },
+            },
+            "square": {
+              "ratio1": {
+                "gradient": "#92542e",
+                "sourceLink": "showImage-1594971313892.jpg",
+              },
+            },
+            "vertical": {
+              "ratio1": {
+                "gradient": "#92542e",
+                "sourceLink": "choriyaan-bojh-na-hoti_har_eng.jpg",
+              },
+            },
+          },
+          "title": "Choriyan Bojh Na Hoti",
+        },
+      ],
+    },
+    {
+      "genreId": 1015,
+      "genreName": "Music",
+      "microdramas": [],
+      "movies": [],
+      "shows": [
+        {
+          "_id": 13,
+          "complianceRating": "",
+          "contentType": "show",
+          "description": "Haryana main saksharta dar kum hone ki wajah se log aksar ladkiyon ko ladkon se kum aankte hain...",
+          "duration": 1743,
+          "selectedPeripheral": {
+            "duration": 94,
+            "hlsSourceLink": "07j65rsnLKfpTaCTe6fR.m3u8",
+            "sourceLink": "07j65rsnLKfpTaCTe6fR.mp4",
+            "thumbnail": {
+              "horizontal": {
+                "sourceLink": "showImage-1588584164861.jpg",
+              },
+              "square": {
+                "sourceLink": "",
+              },
+              "vertical": {
+                "sourceLink": "",
+              },
+            },
+            "title": "Choriyan Bojh Na Hoti - Season 1",
+            "type": "show-peripheral",
+            "viewCount": 1622,
+            "visionularHls": {
+              "hlsSourcelink": "choriyaan-bojh-na-hoti_1674134175264/playlist.m3u8",
+              "sourceLink": "07j65rsnLKfpTaCTe6fR.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "202301191316158054445767f925131c",
+            },
+            "visionularHlsH265": {
+              "hlsSourcelink": "choriyaan-bojh-na-hoti_1674134195408/playlist.m3u8",
+              "sourceLink": "07j65rsnLKfpTaCTe6fR.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "202301191316359483898053b0491289",
+            },
+          },
+          "slug": "choriyaan-bojh-na-hoti",
+          "thumbnail": {
+            "horizontal": {
+              "ratio1": {
+                "gradient": "#92542e",
+                "sourceLink": "showImage-1588584118859.jpg",
+              },
+              "ratio2": {
+                "gradient": "#92542e",
+                "sourceLink": "showImage-1594971313892.jpg",
+              },
+              "ratio3": {
+                "gradient": "",
+                "sourceLink": "",
+              },
+              "ratio4": {
+                "gradient": "#92542e",
+                "sourceLink": "choriyaan-bojh-na-hoti_har_eng_7_2.jpg",
+              },
+            },
+            "square": {
+              "ratio1": {
+                "gradient": "#92542e",
+                "sourceLink": "showImage-1594971313892.jpg",
+              },
+            },
+            "vertical": {
+              "ratio1": {
+                "gradient": "#92542e",
+                "sourceLink": "choriyaan-bojh-na-hoti_har_eng.jpg",
+              },
+            },
+          },
+          "title": "Choriyan Bojh Na Hoti",
+        },
+      ],
+    },
+    {
+      "genreId": 1024,
+      "genreName": "Romance",
+      "microdramas": [],
+      "movies": [],
+      "shows": [
+        {
+          "_id": 443,
+          "complianceRating": "",
+          "contentType": "show",
+          "description": "Ya kahani se Sonu ki jo ek manchalya chhora se. Iss bin Maa ki chhori ki rukhal iska Babu Roshan karya kare. Roshan ka bs ek e sapna hai, Mera chhora padh-likhke khoob badiya number lyave. Isse khatar Roshan khave kamave se. Par Sonu ek bhayankar bimaari ka sikaar hojya se jisne kaya karein ISHQ. Ib Sonu Babu ka sapna pura kar pavega ya fer chhori ke sapne meh kuya ravega? Yo toh aapne puri web-series dekhe pache khud bera paat jyaga.",
+          "duration": 7807,
+          "selectedPeripheral": {
+            "duration": 165,
+            "hlsSourceLink": "VyetsWs70ysxl4Seup.m3u8",
+            "sourceLink": "VyetsWs70ysxl4Seup.mp4",
+            "thumbnail": {
+              "horizontal": {
+                "sourceLink": "showImage-1653383499279.jpg",
+              },
+              "square": {
+                "sourceLink": "",
+              },
+              "vertical": {
+                "sourceLink": "",
+              },
+            },
+            "title": "Prem Nagar - Season 2 - Trailer",
+            "type": "show-peripheral",
+            "viewCount": 0,
+            "visionularHls": {
+              "hlsSourcelink": "prem-nagar---s2_1674136766769/playlist.m3u8",
+              "sourceLink": "VyetsWs70ysxl4Seup.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "20230119135927344694050434006723",
+            },
+            "visionularHlsH265": {
+              "hlsSourcelink": "prem-nagar---s2_1674136770409/playlist.m3u8",
+              "sourceLink": "VyetsWs70ysxl4Seup.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "202301191359309584172570e6cccf1b",
+            },
+          },
+          "slug": "prem-nagar---s2",
+          "thumbnail": {
+            "horizontal": {
+              "ratio1": {
+                "gradient": "#3b3330",
+                "sourceLink": "showImage-1653383421904.jpg",
+              },
+              "ratio2": {
+                "gradient": "#3b3330",
+                "sourceLink": "showImage-1653383468824.jpg",
+              },
+              "ratio3": {
+                "gradient": "#3b3330",
+                "sourceLink": "showImage-1667983548201.jpg",
+              },
+              "ratio4": {
+                "gradient": "#3b3330",
+                "sourceLink": "prem-nagar---s2_har_eng_7_2.jpg",
+              },
+            },
+            "square": {
+              "ratio1": {
+                "gradient": "#3b3330",
+                "sourceLink": "showImage-1653383468824.jpg",
+              },
+            },
+            "vertical": {
+              "ratio1": {
+                "gradient": "#3b3330",
+                "sourceLink": "prem-nagar---s2_Har_En_2x3.jpg",
+              },
+            },
+          },
+          "title": "Prem Nagar - Season 2",
+        },
+        {
+          "_id": 309,
+          "complianceRating": "",
+          "contentType": "show",
+          "description": "Ya kahani se Sonu ki jo ek manchalya chhora se. Iss bin Maa ki chhori ki rukhal iska Babu Roshan karya kare. Roshan ka bs ek e sapna hai, Mera chhora padh-likhke khoob badiya number lyave. Isse khatar Roshan khave kamave se. Par Sonu ek bhayankar bimaari ka sikaar hojya se jisne kaya karein ISHQ. Ib Sonu Babu ka sapna pura kar pavega ya fer chhori ke sapne meh kuya ravega? Yo toh aapne puri web-series dekhe pache khud bera paat jyaga.",
+          "duration": 5502,
+          "selectedPeripheral": {
+            "duration": 172,
+            "hlsSourceLink": "diEOblOSWTrcejY7ri.m3u8",
+            "sourceLink": "diEOblOSWTrcejY7ri.mp4",
+            "thumbnail": {
+              "horizontal": {
+                "sourceLink": "showImage-1644651782793.jpg",
+              },
+              "square": {
+                "sourceLink": "",
+              },
+              "vertical": {
+                "sourceLink": "",
+              },
+            },
+            "title": "Prem Nagar - Trailer",
+            "type": "show-peripheral",
+            "viewCount": 0,
+            "visionularHls": {
+              "hlsSourcelink": "prem-nagar_1674136765608/playlist.m3u8",
+              "sourceLink": "diEOblOSWTrcejY7ri.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "20230119135926174785147eafef9203",
+            },
+            "visionularHlsH265": {
+              "hlsSourcelink": "prem-nagar_1674136762770/playlist.m3u8",
+              "sourceLink": "diEOblOSWTrcejY7ri.mp4",
+              "status": "succeeded",
+              "visionularTaskId": "202301191359233288452711e9e44d9d",
+            },
+          },
+          "slug": "prem-nagar",
+          "thumbnail": {
+            "horizontal": {
+              "ratio1": {
+                "gradient": "#f3d36d",
+                "sourceLink": "showImage-1644651730319.jpg",
+              },
+              "ratio2": {
+                "gradient": "#f3d36d",
+                "sourceLink": "showImage-1644651758278.jpg",
+              },
+              "ratio3": {
+                "gradient": "",
+                "sourceLink": "Prem_Nagar_Eng_HAR_TV.jpg",
+              },
+              "ratio4": {
+                "gradient": "#f3d36d",
+                "sourceLink": "prem-nagar_har_eng_7_2.jpg",
+              },
+            },
+            "square": {
+              "ratio1": {
+                "gradient": "#f3d36d",
+                "sourceLink": "showImage-1644651758278.jpg",
+              },
+            },
+            "vertical": {
+              "ratio1": {
+                "gradient": "#f3d36d",
+                "sourceLink": "prem-nagar_Har_Eng2x3.jpg",
+              },
+            },
+          },
+          "title": "Prem Nagar",
+        },
+      ],
+    },
+  ],
+  "top10Microdramas": {
+    "data": [],
+    "title": "Top 10 Microdramas",
+  },
+  "trendingMicrodramas": {
+    "data": [],
+    "title": "Trending Microdramas",
+  },
+}
+`;
+
+exports[`MODULE: All Content  Tests GET: /contents/microDramas should handle missing dialect and language headers gracefully 1`] = `
+{
+  "message": "MICRO_DRAMA_NOT_FOUND",
+  "statusCode": 404,
+}
+`;
+
+exports[`MODULE: All Content  Tests GET: /contents/microDramas should limit results to 20 micro dramas sorted by release date 1`] = `
+{
+  "data": [
+    {
+      "_id": 1001,
+      "description": "A short micro drama about family relationships and modern values in Haryana.",
+      "releaseDate": "2024-01-15",
+      "slug": "family-values-micro-drama",
+      "thumbnail": {
+        "horizontal": {
+          "ratio1": {
+            "gradient": "#4a90e2",
+            "sourceLink": "microdrama-1-horizontal.jpg",
+          },
+          "ratio2": {
+            "gradient": "#4a90e2",
+            "sourceLink": "microdrama-1-horizontal-2.jpg",
+          },
+          "ratio3": {
+            "gradient": "",
+            "sourceLink": "",
+          },
+        },
+        "square": {
+          "ratio1": {
+            "gradient": "#4a90e2",
+            "sourceLink": "microdrama-1-square.jpg",
+          },
+        },
+        "vertical": {
+          "ratio1": {
+            "gradient": "#4a90e2",
+            "sourceLink": "microdrama-1-vertical.jpg",
+          },
+        },
+      },
+      "title": "Family Values",
+    },
+  ],
+  "responseMessage": "Success",
+}
+`;
+
+exports[`MODULE: All Content  Tests GET: /contents/microDramas should return 404 when no micro dramas found 1`] = `
+{
+  "data": [
+    {
+      "_id": 1003,
+      "description": "A micro drama about traditional values in modern Rajasthan.",
+      "releaseDate": "2024-03-10",
+      "slug": "traditional-values-micro-drama",
+      "thumbnail": {
+        "horizontal": {
+          "ratio1": {
+            "gradient": "#f39c12",
+            "sourceLink": "microdrama-3-horizontal.jpg",
+          },
+          "ratio2": {
+            "gradient": "#f39c12",
+            "sourceLink": "microdrama-3-horizontal-2.jpg",
+          },
+          "ratio3": {
+            "gradient": "",
+            "sourceLink": "",
+          },
+        },
+        "square": {
+          "ratio1": {
+            "gradient": "#f39c12",
+            "sourceLink": "microdrama-3-square.jpg",
+          },
+        },
+        "vertical": {
+          "ratio1": {
+            "gradient": "#f39c12",
+            "sourceLink": "microdrama-3-vertical.jpg",
+          },
+        },
+      },
+      "title": "Traditional Values",
+    },
+  ],
+  "responseMessage": "Success",
+}
+`;
+
+exports[`MODULE: All Content  Tests GET: /contents/microDramas should return empty array when no micro dramas exist for given dialect and language 1`] = `
+{
+  "data": [
+    {
+      "_id": 1003,
+      "description": "A micro drama about traditional values in modern Rajasthan.",
+      "releaseDate": "2024-03-10",
+      "slug": "traditional-values-micro-drama",
+      "thumbnail": {
+        "horizontal": {
+          "ratio1": {
+            "gradient": "#f39c12",
+            "sourceLink": "microdrama-3-horizontal.jpg",
+          },
+          "ratio2": {
+            "gradient": "#f39c12",
+            "sourceLink": "microdrama-3-horizontal-2.jpg",
+          },
+          "ratio3": {
+            "gradient": "",
+            "sourceLink": "",
+          },
+        },
+        "square": {
+          "ratio1": {
+            "gradient": "#f39c12",
+            "sourceLink": "microdrama-3-square.jpg",
+          },
+        },
+        "vertical": {
+          "ratio1": {
+            "gradient": "#f39c12",
+            "sourceLink": "microdrama-3-vertical.jpg",
+          },
+        },
+      },
+      "title": "Traditional Values",
+    },
+  ],
+  "responseMessage": "Success",
+}
+`;
+
+exports[`MODULE: All Content  Tests GET: /contents/microDramas should return micro dramas for authenticated user with Bhojpuri dialect and Hindi language 1`] = `
+{
+  "data": [
+    {
+      "_id": 1002,
+      "description": "A micro drama exploring social issues in Bhojpuri culture.",
+      "releaseDate": "2024-02-20",
+      "slug": "social-issues-micro-drama",
+      "thumbnail": {
+        "horizontal": {
+          "ratio1": {
+            "gradient": "#e74c3c",
+            "sourceLink": "microdrama-2-horizontal.jpg",
+          },
+          "ratio2": {
+            "gradient": "#e74c3c",
+            "sourceLink": "microdrama-2-horizontal-2.jpg",
+          },
+          "ratio3": {
+            "gradient": "",
+            "sourceLink": "",
+          },
+        },
+        "square": {
+          "ratio1": {
+            "gradient": "#e74c3c",
+            "sourceLink": "microdrama-2-square.jpg",
+          },
+        },
+        "vertical": {
+          "ratio1": {
+            "gradient": "#e74c3c",
+            "sourceLink": "microdrama-2-vertical.jpg",
+          },
+        },
+      },
+      "title": "Social Issues",
+    },
+  ],
+  "responseMessage": "Success",
+}
+`;
+
+exports[`MODULE: All Content  Tests GET: /contents/microDramas should return micro dramas for authenticated user with Hindi dialect and English language 1`] = `
+{
+  "data": [
+    {
+      "_id": 1001,
+      "description": "A short micro drama about family relationships and modern values in Haryana.",
+      "releaseDate": "2024-01-15",
+      "slug": "family-values-micro-drama",
+      "thumbnail": {
+        "horizontal": {
+          "ratio1": {
+            "gradient": "#4a90e2",
+            "sourceLink": "microdrama-1-horizontal.jpg",
+          },
+          "ratio2": {
+            "gradient": "#4a90e2",
+            "sourceLink": "microdrama-1-horizontal-2.jpg",
+          },
+          "ratio3": {
+            "gradient": "",
+            "sourceLink": "",
+          },
+        },
+        "square": {
+          "ratio1": {
+            "gradient": "#4a90e2",
+            "sourceLink": "microdrama-1-square.jpg",
+          },
+        },
+        "vertical": {
+          "ratio1": {
+            "gradient": "#4a90e2",
+            "sourceLink": "microdrama-1-vertical.jpg",
+          },
+        },
+      },
+      "title": "Family Values",
+    },
+  ],
+  "responseMessage": "Success",
+}
+`;
+
+exports[`MODULE: All Content  Tests GET: /contents/slugByContentId should return bad request for format other than microdrama 1`] = `
+{
+  "expected": "("microdrama" | undefined)",
+  "message": "Request query data is not following the promised type.",
+  "path": "$input.format",
+  "reason": "Error on TypedQuery(): invalid type on $input.format, expect to be ("microdrama" | undefined)",
+  "value": "standard",
+}
+`;
+
+exports[`MODULE: All Content  Tests GET: /contents/slugByContentId should return not found bad request for any random contentId 1`] = `
+{
+  "error": "Maybe the media is not available",
+  "message": "MOVIE_NOT_FOUND",
+  "statusCode": 404,
+}
+`;
+
+exports[`MODULE: All Content  Tests GET: /contents/slugByContentId should return show slug data for a specific micro drama contentId 1`] = `
+{
+  "contentId": 1001,
+  "slug": "family-values-micro-drama",
+}
+`;
+
+exports[`MODULE: All Content  Tests GET: /contents/slugByContentId should return slug data for a specific contentId 1`] = `
+{
+  "contentId": 17,
+  "slug": "choriyaan-bojh-na-hoti",
+}
+`;

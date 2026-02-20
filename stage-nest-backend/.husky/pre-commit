@@ -1,0 +1,45 @@
+echo '⚙️👷🏻 Performing Sanity checks like format, lint, type & build checks before committing ⚙️👷🏻'
+
+# Check Prettier standards
+npm run format:check ||
+(
+    echo '🤢🤮🤢🤮 Its PRETTY RAW - Your styling is not so cool! 🤢🤮🤢🤮
+            Prettier Check Failed. Run npm run format, add changes and try commit again.';
+    false;
+)
+
+# Check ESLint Standards
+npm run lint:check --fix ||
+(
+        echo '😤📝📝😤 Nope, your lint seems really weak! 😤📝📝😤
+                ESLint Check Failed. Make the required changes listed above, add changes and try to commit again.'
+        false;
+)
+
+# Check tsconfig standards
+npm run type:check ||
+(
+    echo '🅰️ ≠ 🅱️ You are not my type, failed type check. ❌🚫❌
+            Are you seriously trying to write that? Make the changes required above.'
+    false;
+)
+
+# Check for e2e tests
+# npm run test:e2e ||
+# (
+#     echo ':x::x::x: Tests failed. :x::x::x:
+#            Sorry but we do not allow failing tests! Make the changes required.'
+#    false;
+# )
+# If everything passes... Now we can commit
+# echo ':thinking_face::thinking_face::thinking_face::thinking_face:... Alright.... Code looks good to me... Trying to build now. :thinking_face::thinking_face::thinking_face::thinking_face:'
+
+ npm run build ||
+ (
+     echo '❌👷🏻🔨❌ Better call BOB the builder... Because your build failed ❌👷🏻🔨❌
+             Your build failed: View the errors above to see why.'
+     false;
+ )
+
+# If everything passes... Now we can commit
+echo '✅🥳🎉✅ BINGO... your code is clean, good job, commited! ✅🥳🎉✅'

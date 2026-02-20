@@ -1,0 +1,301 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MODULE: Payment Option Service Tests POST: /payments/payment-options should return bad request for case 9 with invalid package names 1`] = `
+{
+  "expected": "string",
+  "message": "Request body data is not following the promised type.",
+  "path": "$input.packageNames[0]",
+  "reason": "Error on TypedBody(): invalid type on $input.packageNames[0], expect to be string",
+  "value": 1,
+}
+`;
+
+exports[`MODULE: Payment Option Service Tests POST: /payments/payment-options should return valid data for case 1 with all three apps installed 1`] = `
+[
+  {
+    "appName": "PhonePe",
+    "appShortName": "PHP",
+    "displayText": "(Recommended)",
+    "imagePath": "/paymentPage/phonepe.png",
+    "packageName": "com.phonepe.app",
+    "paymentFailurePopupDelay": 4,
+    "paymentGateway": "PHONEPE",
+    "pgShortName": "PHPPG",
+  },
+  {
+    "appName": "Paytm",
+    "appShortName": "PTM",
+    "displayText": "",
+    "imagePath": "/paymentPage/paytm.png",
+    "packageName": "net.one97.paytm",
+    "paymentFailurePopupDelay": 4,
+    "paymentGateway": "PAYTM",
+    "pgShortName": "PTMPG",
+  },
+  {
+    "appName": "UPI ऐप से पे करें",
+    "appShortName": "BTM",
+    "displayText": "",
+    "imagePath": "/subscription/tnpl_2/upi_payment_option_mI5Fl2af.png",
+    "packageName": "allApps",
+    "paymentFailurePopupDelay": 4,
+    "paymentGateway": "PHONEPE",
+    "pgShortName": "PHPPG",
+  },
+]
+`;
+
+exports[`MODULE: Payment Option Service Tests POST: /payments/payment-options should return valid data for case 2 with GPay and Paytm installed 1`] = `
+[
+  {
+    "appName": "Paytm",
+    "appShortName": "PTM",
+    "displayText": "",
+    "imagePath": "/paymentPage/paytm.png",
+    "packageName": "net.one97.paytm",
+    "paymentFailurePopupDelay": 4,
+    "paymentGateway": "PAYTM",
+    "pgShortName": "PTMPG",
+  },
+  {
+    "appName": "Google Pay",
+    "appShortName": "GPY",
+    "displayText": "",
+    "imagePath": "/paymentPage/gpay.png",
+    "packageName": "com.google.android.apps.nbu.paisa.user",
+    "paymentFailurePopupDelay": 4,
+    "paymentGateway": "PHONEPE",
+    "pgShortName": "PHPPG",
+  },
+  {
+    "appName": "UPI ऐप से पे करें",
+    "appShortName": "BTM",
+    "displayText": "",
+    "imagePath": "/subscription/tnpl_2/upi_payment_option_mI5Fl2af.png",
+    "packageName": "allApps",
+    "paymentFailurePopupDelay": 4,
+    "paymentGateway": "PHONEPE",
+    "pgShortName": "PHPPG",
+  },
+  {
+    "appName": "UPI ID का उपयोग करें",
+    "appShortName": "UPIID",
+    "displayText": "",
+    "imagePath": "/subscription/tnpl_2/upi_payment_option_mI5Fl2af.png",
+    "packageName": "upiCollect",
+    "paymentFailurePopupDelay": 480,
+    "paymentGateway": "PHONEPE",
+    "pgShortName": "PHPPG",
+  },
+]
+`;
+
+exports[`MODULE: Payment Option Service Tests POST: /payments/payment-options should return valid data for case 3 with GPay and PhonePe installed 1`] = `
+[
+  {
+    "appName": "PhonePe",
+    "appShortName": "PHP",
+    "displayText": "(Recommended)",
+    "imagePath": "/paymentPage/phonepe.png",
+    "packageName": "com.phonepe.app",
+    "paymentFailurePopupDelay": 4,
+    "paymentGateway": "PHONEPE",
+    "pgShortName": "PHPPG",
+  },
+  {
+    "appName": "Google Pay",
+    "appShortName": "GPY",
+    "displayText": "",
+    "imagePath": "/paymentPage/gpay.png",
+    "packageName": "com.google.android.apps.nbu.paisa.user",
+    "paymentFailurePopupDelay": 4,
+    "paymentGateway": "PHONEPE",
+    "pgShortName": "PHPPG",
+  },
+  {
+    "appName": "UPI ऐप से पे करें",
+    "appShortName": "BTM",
+    "displayText": "",
+    "imagePath": "/subscription/tnpl_2/upi_payment_option_mI5Fl2af.png",
+    "packageName": "allApps",
+    "paymentFailurePopupDelay": 4,
+    "paymentGateway": "PHONEPE",
+    "pgShortName": "PHPPG",
+  },
+  {
+    "appName": "UPI ID का उपयोग करें",
+    "appShortName": "UPIID",
+    "displayText": "",
+    "imagePath": "/subscription/tnpl_2/upi_payment_option_mI5Fl2af.png",
+    "packageName": "upiCollect",
+    "paymentFailurePopupDelay": 480,
+    "paymentGateway": "PHONEPE",
+    "pgShortName": "PHPPG",
+  },
+]
+`;
+
+exports[`MODULE: Payment Option Service Tests POST: /payments/payment-options should return valid data for case 4 with PhonePe and Paytm installed 1`] = `
+[
+  {
+    "appName": "PhonePe",
+    "appShortName": "PHP",
+    "displayText": "(Recommended)",
+    "imagePath": "/paymentPage/phonepe.png",
+    "packageName": "com.phonepe.app",
+    "paymentFailurePopupDelay": 4,
+    "paymentGateway": "PHONEPE",
+    "pgShortName": "PHPPG",
+  },
+  {
+    "appName": "Paytm",
+    "appShortName": "PTM",
+    "displayText": "",
+    "imagePath": "/paymentPage/paytm.png",
+    "packageName": "net.one97.paytm",
+    "paymentFailurePopupDelay": 4,
+    "paymentGateway": "PAYTM",
+    "pgShortName": "PTMPG",
+  },
+  {
+    "appName": "UPI ऐप से पे करें",
+    "appShortName": "BTM",
+    "displayText": "",
+    "imagePath": "/subscription/tnpl_2/upi_payment_option_mI5Fl2af.png",
+    "packageName": "allApps",
+    "paymentFailurePopupDelay": 4,
+    "paymentGateway": "PHONEPE",
+    "pgShortName": "PHPPG",
+  },
+]
+`;
+
+exports[`MODULE: Payment Option Service Tests POST: /payments/payment-options should return valid data for case 5 with only PhonePe installed 1`] = `
+[
+  {
+    "appName": "PhonePe",
+    "appShortName": "PHP",
+    "displayText": "(Recommended)",
+    "imagePath": "/paymentPage/phonepe.png",
+    "packageName": "com.phonepe.app",
+    "paymentFailurePopupDelay": 4,
+    "paymentGateway": "PHONEPE",
+    "pgShortName": "PHPPG",
+  },
+  {
+    "appName": "UPI ऐप से पे करें",
+    "appShortName": "BTM",
+    "displayText": "",
+    "imagePath": "/subscription/tnpl_2/upi_payment_option_mI5Fl2af.png",
+    "packageName": "allApps",
+    "paymentFailurePopupDelay": 4,
+    "paymentGateway": "PHONEPE",
+    "pgShortName": "PHPPG",
+  },
+  {
+    "appName": "UPI ID का उपयोग करें",
+    "appShortName": "UPIID",
+    "displayText": "",
+    "imagePath": "/subscription/tnpl_2/upi_payment_option_mI5Fl2af.png",
+    "packageName": "upiCollect",
+    "paymentFailurePopupDelay": 480,
+    "paymentGateway": "PHONEPE",
+    "pgShortName": "PHPPG",
+  },
+]
+`;
+
+exports[`MODULE: Payment Option Service Tests POST: /payments/payment-options should return valid data for case 6 with only Paytm installed 1`] = `
+[
+  {
+    "appName": "Paytm",
+    "appShortName": "PTM",
+    "displayText": "",
+    "imagePath": "/paymentPage/paytm.png",
+    "packageName": "net.one97.paytm",
+    "paymentFailurePopupDelay": 4,
+    "paymentGateway": "PAYTM",
+    "pgShortName": "PTMPG",
+  },
+  {
+    "appName": "UPI ऐप से पे करें",
+    "appShortName": "BTM",
+    "displayText": "",
+    "imagePath": "/subscription/tnpl_2/upi_payment_option_mI5Fl2af.png",
+    "packageName": "allApps",
+    "paymentFailurePopupDelay": 4,
+    "paymentGateway": "PHONEPE",
+    "pgShortName": "PHPPG",
+  },
+  {
+    "appName": "UPI ID का उपयोग करें",
+    "appShortName": "UPIID",
+    "displayText": "",
+    "imagePath": "/subscription/tnpl_2/upi_payment_option_mI5Fl2af.png",
+    "packageName": "upiCollect",
+    "paymentFailurePopupDelay": 480,
+    "paymentGateway": "PHONEPE",
+    "pgShortName": "PHPPG",
+  },
+]
+`;
+
+exports[`MODULE: Payment Option Service Tests POST: /payments/payment-options should return valid data for case 7 with only GPay installed 1`] = `
+[
+  {
+    "appName": "Google Pay",
+    "appShortName": "GPY",
+    "displayText": "",
+    "imagePath": "/paymentPage/gpay.png",
+    "packageName": "com.google.android.apps.nbu.paisa.user",
+    "paymentFailurePopupDelay": 4,
+    "paymentGateway": "PHONEPE",
+    "pgShortName": "PHPPG",
+  },
+  {
+    "appName": "UPI ऐप से पे करें",
+    "appShortName": "BTM",
+    "displayText": "",
+    "imagePath": "/subscription/tnpl_2/upi_payment_option_mI5Fl2af.png",
+    "packageName": "allApps",
+    "paymentFailurePopupDelay": 4,
+    "paymentGateway": "PHONEPE",
+    "pgShortName": "PHPPG",
+  },
+  {
+    "appName": "UPI ID का उपयोग करें",
+    "appShortName": "UPIID",
+    "displayText": "",
+    "imagePath": "/subscription/tnpl_2/upi_payment_option_mI5Fl2af.png",
+    "packageName": "upiCollect",
+    "paymentFailurePopupDelay": 480,
+    "paymentGateway": "PHONEPE",
+    "pgShortName": "PHPPG",
+  },
+]
+`;
+
+exports[`MODULE: Payment Option Service Tests POST: /payments/payment-options should return valid data for case 8 with no apps installed 1`] = `
+[
+  {
+    "appName": "UPI ऐप से पे करें",
+    "appShortName": "BTM",
+    "displayText": "",
+    "imagePath": "/subscription/tnpl_2/upi_payment_option_mI5Fl2af.png",
+    "packageName": "allApps",
+    "paymentFailurePopupDelay": 4,
+    "paymentGateway": "PHONEPE",
+    "pgShortName": "PHPPG",
+  },
+  {
+    "appName": "UPI ID का उपयोग करें",
+    "appShortName": "UPIID",
+    "displayText": "",
+    "imagePath": "/subscription/tnpl_2/upi_payment_option_mI5Fl2af.png",
+    "packageName": "upiCollect",
+    "paymentFailurePopupDelay": 480,
+    "paymentGateway": "PHONEPE",
+    "pgShortName": "PHPPG",
+  },
+]
+`;

@@ -1,0 +1,107 @@
+# Cursor Rules for React/Next.js Project
+
+## Code Quality Standards
+
+### Naming Conventions
+
+- Use descriptive, self-documenting names for functions, components, and variables
+- Function names should be verbs (e.g., `handlePageChange`, `formatDate`, `getPaginationInfo`)
+- Component names should be nouns in PascalCase (e.g., `VideoQcTable`, `PaginationControls`)
+- Boolean variables should start with `is`, `has`, `should`, or `can` (e.g., `isLoading`, `hasAccess`)
+- Avoid abbreviations unless widely understood (e.g., `id`, `url`, `api`)
+
+### Comments
+
+- Minimize comments - code should be self-explanatory
+- Only add comments when explaining "why" not "what"
+- Remove obvious comments like `// Data`, `// Functions`, `// Pagination`
+- Use JSDoc comments only for public APIs and complex logic
+
+### File Size
+
+- Maximum file size: 300 lines
+- Split large components into smaller, focused components
+- Extract complex logic into custom hooks
+- Move utility functions to separate files
+
+### React Best Practices
+
+#### Components
+
+- Use functional components with hooks
+- Keep components focused on a single responsibility
+- Extract reusable logic into custom hooks
+- Use `useCallback` and `useMemo` only when necessary (avoid premature optimization)
+- Prefer composition over complex prop drilling
+
+#### Hooks
+
+- Custom hooks should start with `use` prefix
+- Keep hooks focused and reusable
+- Extract complex state logic into custom hooks
+- Use proper dependency arrays in hooks
+
+#### Performance
+
+- Use `React.memo` for expensive components that re-render frequently
+- Lazy load heavy components with `React.lazy` and `Suspense`
+- Avoid creating functions/objects in render without `useCallback`/`useMemo` when passed as props
+
+#### TypeScript
+
+- Use proper types for all props and function parameters
+- Avoid `any` type - use `unknown` or proper types
+- Use interfaces for object shapes, types for unions/intersections
+- Export types/interfaces that are used in multiple files
+
+#### Code Organization
+
+- Group related imports together (React, third-party, local)
+- Use absolute imports with path aliases (`@/components`, `@/hooks`)
+- Keep related files in the same directory
+- Use index files for clean exports
+
+#### Error Handling
+
+- Handle errors gracefully with proper error boundaries
+- Provide meaningful error messages to users
+- Log errors appropriately for debugging
+
+#### Accessibility
+
+- Use semantic HTML elements
+- Include proper ARIA labels where needed
+- Ensure keyboard navigation works
+- Maintain proper focus management
+
+### Code Structure
+
+```typescript
+// 1. Imports (grouped)
+import React from "react";
+import { useQuery } from "@tanstack/react-query";
+import { Button } from "@/components/ui/button";
+import { useCustomHook } from "@/hooks/useCustomHook";
+
+// 2. Types/Interfaces
+interface ComponentProps {
+  // ...
+}
+
+// 3. Constants
+const DEFAULT_VALUE = 10;
+
+// 4. Helper functions (outside component)
+const formatValue = (value: number) => {
+  // ...
+};
+
+// 5. Component
+export function Component({ prop }: ComponentProps) {
+  // Hooks
+  // State
+  // Effects
+  // Handlers
+  // Render
+}
+```

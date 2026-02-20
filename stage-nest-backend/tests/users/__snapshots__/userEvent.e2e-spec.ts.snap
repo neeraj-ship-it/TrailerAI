@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MODULE: User Events Tests GET: /users/user-events should return all user events 1`] = `
+{
+  "events": [
+    {
+      "dialect": "har",
+      "eventName": "watchtime_4min_achieved",
+      "metadata": {
+        "duration": 240,
+      },
+      "os": "android",
+      "sentToAppsflyer": true,
+    },
+    {
+      "dialect": "har",
+      "eventName": "watchtime_8min_achieved",
+      "metadata": {
+        "duration": 480,
+      },
+      "os": "android",
+      "sentToAppsflyer": true,
+    },
+  ],
+  "totalCount": 2,
+}
+`;
+
+exports[`MODULE: User Events Tests GET: /users/user-events should return empty array when no events exist 1`] = `
+{
+  "message": "USER_EVENT_NOT_FOUND",
+  "statusCode": 404,
+}
+`;
+
+exports[`MODULE: User Events Tests GET: /users/user-events/by-event-name/:eventName should return 404 when event not found 1`] = `
+{
+  "message": "USER_EVENT_NOT_FOUND",
+  "statusCode": 404,
+}
+`;
+
+exports[`MODULE: User Events Tests GET: /users/user-events/by-event-name/:eventName should return 500 for empty eventName 1`] = `
+{
+  "message": "Internal server error",
+  "statusCode": 500,
+}
+`;
+
+exports[`MODULE: User Events Tests GET: /users/user-events/by-event-name/:eventName should return specific event by name 1`] = `
+{
+  "events": [
+    {
+      "dialect": "har",
+      "eventName": "watchtime_4min_achieved",
+      "metadata": {
+        "contentId": "content-123",
+        "duration": 240,
+      },
+      "os": "android",
+      "sentToAppsflyer": true,
+    },
+  ],
+  "totalCount": 1,
+}
+`;
+
+exports[`MODULE: User Events Tests POST: /users/user-events should successfully add a user event and verify in secondary DB 1`] = `
+{
+  "message": "Event added successfully",
+}
+`;
+
+exports[`MODULE: User Events Tests POST: /users/user-events should successfully add event without metadata 1`] = `
+{
+  "message": "Event added successfully",
+}
+`;

@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MODULE: User Profile Tests DELETE /profiles/:id should not delete primary profile 1`] = `
+{
+  "error": "Bad Request",
+  "message": "Primary profile cannot be deleted",
+  "statusCode": 400,
+}
+`;
+
+exports[`MODULE: User Profile Tests DELETE /profiles/:id should soft delete profile 1`] = `""`;
+
+exports[`MODULE: User Profile Tests GET /profiles should return 401 for unauthenticated request 1`] = `
+{
+  "message": "INVALID_CREDENTIAL",
+  "statusCode": 401,
+}
+`;
+
+exports[`MODULE: User Profile Tests PATCH /profiles/:id should not update non-existent profile 1`] = `
+{
+  "message": "USER_PROFILE_NOT_FOUND",
+  "statusCode": 410,
+}
+`;
+
+exports[`MODULE: User Profile Tests POST /profiles should not create profile if max profiles limit reached 1`] = `
+{
+  "error": "Maximum limit of 5 profiles reached",
+  "message": "MAX_PROFILES_REACHED",
+  "statusCode": 400,
+}
+`;
+
+exports[`MODULE: User Profile Tests POST /profiles/switch/:id should not switch to deleted profile 1`] = `
+{
+  "message": "USER_PROFILE_NOT_FOUND",
+  "statusCode": 410,
+}
+`;
+
+exports[`MODULE: User Profile Tests POST /profiles/switch/:id should not switch to non-existent profile 1`] = `
+{
+  "message": "USER_PROFILE_NOT_FOUND",
+  "statusCode": 410,
+}
+`;
+

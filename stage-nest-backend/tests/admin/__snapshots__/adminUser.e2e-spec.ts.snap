@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Admin User Service Tests Create User Service Tests should create admin user with all the privileges 1`] = `
+{
+  "email": "admin-test-001@example.com",
+  "firstName": "John",
+  "lastName": "Doe",
+  "phoneNumber": "1234563890",
+}
+`;

@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MODULE: Delete User Data Tests DELETE: /users/user-data should match snapshot for successful deletion 1`] = `
+{
+  "message": "User data deleted successfully",
+  "success": true,
+}
+`;

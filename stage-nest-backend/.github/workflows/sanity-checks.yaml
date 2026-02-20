@@ -1,0 +1,175 @@
+name: Lint, Formatting & Build Checks with Integration Tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  build:
+    name: Lint & Tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      PORT: ${{ secrets.PORT }}
+      NODE_ENV: test
+      NODE_OPTIONS: '--max-old-space-size=8000'
+      # MONGO_DB_URI: ${{ secrets.MONGO_DB_URI }} # Commented out to allow tests to use in-memory MongoDB with proper test data
+      RAZORPAY_KEY_ID: ${{ secrets.RAZORPAY_KEY_ID }}
+      RAZORPAY_KEY_SECRET: ${{ secrets.RAZORPAY_KEY_SECRET }}
+      PAYTM_MERCHANT_ID: ${{ secrets.PAYTM_MERCHANT_ID }}
+      PAYTM_MERCHANT_KEY: ${{ secrets.PAYTM_MERCHANT_KEY }}
+      JUSPAY_MERCHANT_ID: ${{ secrets.JUSPAY_MERCHANT_ID }}
+      JUSPAY_CLIENT_ID: ${{ secrets.JUSPAY_CLIENT_ID }}
+      JUSPAY_CLIENT_ID_HAR: ${{ secrets.JUSPAY_CLIENT_ID_HAR }}
+      JUSPAY_CLIENT_ID_RAJ: ${{ secrets.JUSPAY_CLIENT_ID_RAJ }}
+      JUSPAY_API_KEY: ${{ secrets.JUSPAY_API_KEY }}
+      JUSPAY_WEBHOOK_USERNAME: ${{ secrets.JUSPAY_WEBHOOK_USERNAME }}
+      JUSPAY_WEBHOOK_PASSWORD: ${{ secrets.JUSPAY_WEBHOOK_PASSWORD }}
+      TEST_UPI_ID: ${{ secrets.TEST_UPI_ID }}
+      JWT_ACCESS_TOKEN_SECRET_KEY: JWT_ACCESS_TOKEN_SECRET_KEY
+      DEFAULT_CACHE_TTL: 6048000
+      REDIS_HOST: 127.0.0.1
+      REDIS_PORT: 6379
+      JWT_ACCESS_TOKEN_EXPIRE_TIME: 7d
+      JWT_REFRESH_TOKEN_SECRET_KEY: JWT_REFRESH_TOKEN_SECRET_KEY
+      JWT_REFRESH_TOKEN_EXPIRE_TIME: 365d
+      PHONEPE_SALT_KEY: ${{ secrets.PHONEPE_SALT_KEY}}
+      PHONEPE_SALT_INDEX: 1
+      PHONEPE_MERCHANT_ID: ${{ secrets.PHONEPE_MERCHANT_ID}}
+      APP_BASE_URL: https://dev-api.stage.in
+      AWS_S3_ACCESS_KEY_ID: AWS_S3_ACCESS_KEY_ID
+      AWS_S3_SECRET_ACCESS_KEY: AWS_S3_SECRET_ACCESS_KEY
+      AWS_REGION: ap-south-1
+      RAZORPAY_WEBHOOK_SECRET_RECURRING: RAZORPAY_WEBHOOK_SECRET_RECURRING
+      CELETEL_WHATSAPP_AUTH_TOKEN: abcdefghijklmnopqrstuvwxyz==
+      CELETEL_SMS_USERNAME: celetel_username
+      CELETEL_SMS_PASSWORD: celetel_password
+      GUPSHUP_WHATSAPP_USER_ID: gups_whatsapp_user_id
+      GUPSHUP_WHATSAPP_PASSWORD: gups_whatsapp_password
+      GUPSHUP_SMS_USER_ID: gups_sms_user_id
+      GUPSHUP_SMS_PASSWORD: gups_sms_password
+
+      #----- BULL MQ -----#
+      BULL_MQ_HOST: 127.0.0.1
+      BULL_MQ_PORT: 6379
+      SLACK_BOT_TOKEN: 'random_token'
+      PHONEPE_HEALTH_X_VERIFY: 'RandomString'
+      CELETEL_WHATSAPP_NUMBER_BHO: 123456789
+      CELETEL_WHATSAPP_NUMBER_HAR: 123456789
+      CELETEL_WHATSAPP_NUMBER_RAJ: 123456789
+      RUDDERSTACK_DATA_PLANE_URL: 'https://stageshasmzdbk.dataplane.rudderstack.com'
+      NEST_RUDDERSTACK_WRITE_KEY: 2sD94S9V8e0ATw4plo4Gy8GMQIZ
+      X_CLEVERTAP_ACCOUNT_ID_HAR: 'RandomString'
+      X_CLEVERTAP_PASSCODE_HAR: 'RandomString'
+      X_CLEVERTAP_ACCOUNT_ID: 'RandomString'
+      X_CLEVERTAP_PASSCODE: 'RandomString'
+      X_CLEVERTAP_ACCOUNT_ID_RAJ: 'RandomString'
+      X_CLEVERTAP_PASSCODE_RAJ: 'RandomString'
+      AMPLITUDE_API_KEY: '0ff376ce2adc95a1d5698fd38e2ce91c'
+      AMPLITUDE_API_KEY_HAR: 'd6eb54fb6c738077fdb03124b87063e5'
+      AMPLITUDE_API_KEY_RAJ: 'fe9149cb6b6b176a3ccb72f92f1ad284'
+      APPSFLYER_SECRET: 'RandomString'
+      FIREBASE_APP_ID: 'RandomString'
+      GA4_API_SECRET: 'RandomString'
+      INTER_SERVICES_AUTH_KEY: 'RandomString'
+      KAFKA_BROKER_URLS: ${{ secrets.KAFKA_BROKER_URLS }}
+      APPSFLYER_API_TOKEN: RandomString
+
+      #----- SETU -----#
+      SETU_MERCHANT_ID_V2: 01JFCNXWVXQ8MK9W0CAG92QB52
+      SETU_CLIENT_ID_V2: stage-cug-live-client
+      SETU_CLIENT_SECRET_V2: gq2ocAsRpEEWeM4HTn0XfgjjDNiKfuVJ
+      SETU_WEBHOOK_SECRET: Mt0HNAa1PWw9gXinaH5C
+      RUDDERSTACK_WRITE_KEY_NEST: 2sD94S9V8e0ATw4plo4Gy8GMQIZ
+      SETU_MERCHANT_VPA: 6391792891792891@ybl
+      FIREBASE_MEASUREMENT_ID: RandomString
+      GA4_API_SECRET_WEB: RandomString
+      NCANTO_API_KEY: RandomString
+      BUCKET_PATH: 'https://media.stage.in'
+
+      #----- Missing Zod validation fields -----#
+      AWS_CLOUDFRONT_URL: RandomString
+      CF_ACCESS_KEY_ID: 'RandomString'
+      CF_PRIVATE_KEY: 'RandomString'
+      COMPLEX_REDIS_HOST: 127.0.0.1
+      COMPLEX_REDIS_PORT: 6379
+      JIO_PARTNER_ID: 'RandomString'
+      JIO_PLAN_ID: 'RandomString'
+      JIO_PUBLIC_KEY: 'RandomString'
+      JIOTV_JWT_SECRET_KEY: 'RandomString'
+      OPENAI_API_KEY: 'RandomString'
+      STAGE_BASE_URL: 'https://stage.in'
+      STATSIG_API_KEY: ${{ secrets.STATSIG_API_KEY }}
+      STC_JWT_SCRET_KEY: 'RandomString'
+      STC_PARTNER_ID: 'RandomString'
+      STC_PLAN_ID: 'RandomString'
+
+      #----- AWS ECS -----#
+      AWS_ECS_CLUSTER: 'test-cluster'
+      AWS_ECS_SECURITY_GROUP_IDS: 'sg-12345678'
+      AWS_ECS_SUBNET_IDS: 'subnet-12345678'
+      AWS_ECS_TASK_DEFINITION: 'test-task-definition'
+
+      #----- Visionular -----#
+      VISIONULAR_API_KEY: 'RandomString'
+      VISIONULAR_API_SECRET: 'RandomString'
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          cache: 'npm'
+          node-version: '22.x'
+
+      - name: Start Redis
+        run: |
+          docker run -d --name redis-stack -p 6379:6379 redis/redis-stack-server:latest
+          docker ps
+
+      - name: Start Kafka
+        run: |
+          docker run -d --name kafka \
+            -p 29092:29092 \
+            -e KAFKA_NODE_ID=1 \
+            -e KAFKA_LISTENER_SECURITY_PROTOCOL_MAP=CONTROLLER:PLAINTEXT,PLAINTEXT:PLAINTEXT \
+            -e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://localhost:29092 \
+            -e KAFKA_LISTENERS=PLAINTEXT://0.0.0.0:29092,CONTROLLER://0.0.0.0:9093 \
+            -e KAFKA_CONTROLLER_LISTENER_NAMES=CONTROLLER \
+            -e KAFKA_CONTROLLER_QUORUM_VOTERS=1@localhost:9093 \
+            -e KAFKA_PROCESS_ROLES=broker,controller \
+            -e KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1 \
+            -e CLUSTER_ID=MkU3OEVBNTcwNTJENDM2Qk \
+            apache/kafka:latest
+          sleep 10
+          docker ps
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run linter check
+        run: npm run lint:check
+
+      - name: Run type check
+        run: npm run type:check
+
+      - name: Run prettier format check
+        run: npm run format:check
+
+      - name: Run integration e2e tests
+        run: npm run test:e2e
+
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v5
+        with:
+          fail_ci_if_error: true
+          slug: vatsanatech/stage-nest-backend
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+
+      - name: Build server
+        run: npm run build

@@ -1,0 +1,11 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    assignees:
+      - "souravdasslg"
+    reviewers:
+      - "souravdasslg"
+    open-pull-requests-limit: 5

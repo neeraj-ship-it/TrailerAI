@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MODULE: App Uninstall Event Tests PATCH: /users/event/captureUninstall should successfully track app uninstall for user with subscription 1`] = `true`;

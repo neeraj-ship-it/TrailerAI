@@ -1,0 +1,88 @@
+# Trailer Narrative AI - Docker Compose for Local Development
+# Usage: docker-compose up --build
+version: '3.8'
+
+services:
+  trailer-ai:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        WHISPER_MODEL: medium
+        LLM_MODEL: google/flan-t5-large
+    image: trailer-narrative-ai:latest
+    container_name: trailer-narrative-ai
+
+    # GPU support (requires nvidia-docker)
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+    # Volume mounts
+    volumes:
+      - ./input:/app/input:ro
+      - ./output:/app/output
+      - ./logs:/app/logs
+      # Cache models between runs
+      - huggingface-cache:/root/.cache/huggingface
+      - whisper-cache:/root/.cache/whisper
+
+    # Environment variables
+    environment:
+      - ENVIRONMENT=development
+      - PYTHONUNBUFFERED=1
+      - USE_LLM=true
+      - LLM_MODEL=google/flan-t5-large
+      - LLM_DEVICE=auto
+      - WHISPER_DEVICE=auto
+      - VISUAL_DEVICE=auto
+      - ASR_CHUNKED=false
+      - MAX_WORKERS=2
+
+    # Resource limits
+    mem_limit: 16g
+    memswap_limit: 20g
+
+    # Logging
+    logging:
+      driver: json-file
+      options:
+        max-size: "100m"
+        max-file: "3"
+
+    # Command - process a video
+    # Override with: docker-compose run trailer-ai /app/input/your-movie.mp4
+    command: ["--help"]
+
+  # CPU-only variant for systems without GPU
+  trailer-ai-cpu:
+    build:
+      context: .
+      dockerfile: Dockerfile.cpu
+    image: trailer-narrative-ai:cpu
+    container_name: trailer-narrative-ai-cpu
+    profiles:
+      - cpu-only
+
+    volumes:
+      - ./input:/app/input:ro
+      - ./output:/app/output
+      - huggingface-cache:/root/.cache/huggingface
+      - whisper-cache:/root/.cache/whisper
+
+    environment:
+      - ENVIRONMENT=development
+      - USE_LLM=true
+      - LLM_DEVICE=cpu
+      - WHISPER_DEVICE=cpu
+      - VISUAL_DEVICE=cpu
+
+    mem_limit: 32g
+
+volumes:
+  huggingface-cache:
+  whisper-cache:

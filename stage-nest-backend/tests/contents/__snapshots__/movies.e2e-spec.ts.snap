@@ -1,0 +1,464 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MODULE: Movies Tests GET: /contents/movies/all should return all paginated movies 1`] = `
+{
+  "data": [
+    {
+      "_id": 1711,
+      "slug": "hindi-movie-for-reels",
+      "thumbnail": {
+        "horizontal": {
+          "ratio1": {
+            "gradient": "#92542e",
+            "sourceLink": "W0oSq5idQfz70gtohlCH.jpeg",
+          },
+        },
+      },
+      "title": {
+        "hin": "Hindi Movie",
+      },
+    },
+  ],
+  "nextPageAvailable": false,
+  "page": 1,
+  "perPage": 20,
+}
+`;
+
+exports[`MODULE: Movies Tests GET: /contents/movies/all should return all paginated movies with english title 1`] = `
+{
+  "data": [
+    {
+      "_id": 171,
+      "slug": "new-khani",
+      "thumbnail": {
+        "horizontal": {
+          "ratio1": {
+            "gradient": "#92542e",
+            "sourceLink": "W0oSq5idQfz70gtohlCH.jpeg",
+          },
+        },
+      },
+      "title": {
+        "en": "New Kanya Ki",
+      },
+    },
+    {
+      "_id": 2,
+      "slug": "sample-individual-episode",
+      "thumbnail": {
+        "horizontal": {
+          "ratio1": {
+            "gradient": "#4a90e2",
+            "sourceLink": "sample_individual_episode_thumbnail.jpg",
+          },
+        },
+      },
+      "title": {
+        "en": "This is movie",
+      },
+    },
+    {
+      "_id": 2412,
+      "slug": "sample-individual-episode-3",
+      "thumbnail": {
+        "horizontal": {
+          "ratio1": {
+            "gradient": "#4a90e2",
+            "sourceLink": "sample_individual_episode_thumbnail.jpg",
+          },
+        },
+      },
+      "title": {
+        "en": "This is movie",
+      },
+    },
+    {
+      "_id": 2413,
+      "slug": "sample-individual-episode-4",
+      "thumbnail": {
+        "horizontal": {
+          "ratio1": {
+            "gradient": "#4a90e2",
+            "sourceLink": "sample_individual_episode_thumbnail.jpg",
+          },
+        },
+      },
+      "title": {
+        "en": "This is movie",
+      },
+    },
+    {
+      "_id": 2411,
+      "slug": "sample-individual-episode-2",
+      "thumbnail": {
+        "horizontal": {
+          "ratio1": {
+            "gradient": "#4a90e2",
+            "sourceLink": "sample_individual_episode_thumbnail.jpg",
+          },
+        },
+      },
+      "title": {
+        "en": "This is movie",
+      },
+    },
+    {
+      "_id": 170,
+      "slug": "new-khani",
+      "thumbnail": {
+        "horizontal": {
+          "ratio1": {
+            "gradient": "#92542e",
+            "sourceLink": "W0oSq5idQfz70gtohlCH.jpeg",
+          },
+        },
+      },
+      "title": {
+        "en": "New Kanya Ki",
+      },
+    },
+    {
+      "_id": 2410,
+      "slug": "sample-individual-episode-1",
+      "thumbnail": {
+        "horizontal": {
+          "ratio1": {
+            "gradient": "#4a90e2",
+            "sourceLink": "sample_individual_episode_thumbnail.jpg",
+          },
+        },
+      },
+      "title": {
+        "en": "This is movie",
+      },
+    },
+  ],
+  "nextPageAvailable": false,
+  "page": 1,
+  "perPage": 20,
+}
+`;
+
+exports[`MODULE: Movies Tests GET: /contents/movies/details should return error when movie is not found 1`] = `
+{
+  "error": "Maybe the media is not available or not movie type",
+  "message": "MOVIE_NOT_FOUND",
+  "statusCode": 404,
+}
+`;
+
+exports[`MODULE: Movies Tests GET: /contents/movies/details should return movie details when valid movieId is provided 1`] = `
+{
+  "movie": {
+    "_id": 171,
+    "artistList": [
+      {
+        "callingName": "Ramnath",
+        "city": "Karnal",
+        "display": "Ramnath Shastry",
+        "firstName": "Ramnath",
+        "gender": "male",
+        "id": 101,
+        "lastName": "Shastry",
+        "name": "Ramnath Shastry",
+        "order": 1,
+        "profilePic": "XxIihPE7OCbJhYOUTjxS.jpeg",
+        "slug": "ramnath-shastri",
+        "status": "active",
+      },
+    ],
+    "categoryList": [
+      {
+        "id": 1,
+        "name": "Sample Category 170",
+      },
+    ],
+    "complianceList": [],
+    "complianceRating": "",
+    "contentDetailsCtaText": "देखना शुरू करें",
+    "contentWarnings": [],
+    "description": "170 Yahan kavi ne btaya hai ki ek kanya ki aatma kaise bhagwan se rote hue baat karti hai ki usko janam dene se pehle hi maar diya gaya aur wo duniya dekhne se kis terah vanchit reh gayi.",
+    "displayLanguage": "en",
+    "duration": 4190,
+    "genreList": [
+      {
+        "id": 1,
+        "name": "Action",
+      },
+      {
+        "id": 2,
+        "name": "Comedy",
+      },
+      {
+        "id": 3,
+        "name": "Drama",
+      },
+    ],
+    "introEndTime": 0,
+    "introStartTime": 0,
+    "isPremium": true,
+    "language": "har",
+    "lapsedPercent": 0,
+    "likeStatus": null,
+    "order": 289,
+    "preContentWarningText": "",
+    "restartPlayback": false,
+    "shareCopies": "आज ही देखो New Kanya Ki सिर्फ STAGE App पर 
+– और अब STAGE App आपके Smart TV 📺 पर भी!",
+    "slug": "new-khani",
+    "sourceLink": "new-kahani-knya-ki-ajsdkjsakhdjh234234.mp4",
+    "status": "active",
+    "thumbnail": {
+      "horizontal": {
+        "ratio1": {
+          "gradient": "#92542e",
+          "sourceLink": "W0oSq5idQfz70gtohlCH.jpeg",
+        },
+      },
+    },
+    "title": "New Kanya Ki",
+    "videoFormatDetails": [
+      {
+        "bitRate": 1080,
+        "label": "पूर्ण एचडी (1080p)",
+        "size": 43.17,
+      },
+      {
+        "bitRate": 720,
+        "label": "उच्च गुणवत्ता (720p)",
+        "size": 32.99,
+      },
+      {
+        "bitRate": 480,
+        "label": "मध्यम (480p)",
+        "size": 23.22,
+      },
+      {
+        "bitRate": 360,
+        "label": "औसत (360p)",
+        "size": 15.96,
+      },
+      {
+        "bitRate": 240,
+        "label": "निम्न (240p)",
+        "size": 11.28,
+      },
+    ],
+    "visionularHls": {
+      "sourceLink": "aatma-knya-ki-ajsdkjsakhdjh234234.mp4",
+    },
+    "yearOfRelease": 2026,
+  },
+}
+`;
+
+exports[`MODULE: Movies Tests GET: /contents/movies/details should return movie details when valid movieId is provided in english 1`] = `
+{
+  "movie": {
+    "_id": 171,
+    "artistList": [
+      {
+        "callingName": "Ramnath",
+        "city": "Karnal",
+        "display": "Ramnath Shastry",
+        "firstName": "Ramnath",
+        "gender": "male",
+        "id": 101,
+        "lastName": "Shastry",
+        "name": "Ramnath Shastry",
+        "order": 1,
+        "profilePic": "XxIihPE7OCbJhYOUTjxS.jpeg",
+        "slug": "ramnath-shastri",
+        "status": "active",
+      },
+    ],
+    "categoryList": [
+      {
+        "id": 1,
+        "name": "Sample Category 170",
+      },
+    ],
+    "complianceList": [],
+    "complianceRating": "",
+    "contentDetailsCtaText": "Start Watching",
+    "contentWarnings": [],
+    "description": "170 Yahan kavi ne btaya hai ki ek kanya ki aatma kaise bhagwan se rote hue baat karti hai ki usko janam dene se pehle hi maar diya gaya aur wo duniya dekhne se kis terah vanchit reh gayi.",
+    "displayLanguage": "en",
+    "duration": 4190,
+    "genreList": [
+      {
+        "id": 1,
+        "name": "Action",
+      },
+      {
+        "id": 2,
+        "name": "Comedy",
+      },
+      {
+        "id": 3,
+        "name": "Drama",
+      },
+    ],
+    "introEndTime": 0,
+    "introStartTime": 0,
+    "isPremium": true,
+    "language": "har",
+    "lapsedPercent": 0,
+    "likeStatus": null,
+    "order": 289,
+    "preContentWarningText": "",
+    "restartPlayback": false,
+    "shareCopies": "Watch New Kanya Ki today, only on the STAGE App 
+– now STAGE App is available on your Smart TV 📺 too!",
+    "slug": "new-khani",
+    "sourceLink": "new-kahani-knya-ki-ajsdkjsakhdjh234234.mp4",
+    "status": "active",
+    "thumbnail": {
+      "horizontal": {
+        "ratio1": {
+          "gradient": "#92542e",
+          "sourceLink": "W0oSq5idQfz70gtohlCH.jpeg",
+        },
+      },
+    },
+    "title": "New Kanya Ki",
+    "videoFormatDetails": [
+      {
+        "bitRate": 1080,
+        "label": "Full HD (1080p)",
+        "size": 43.17,
+      },
+      {
+        "bitRate": 720,
+        "label": "HD (720p)",
+        "size": 32.99,
+      },
+      {
+        "bitRate": 480,
+        "label": "Medium (480p)",
+        "size": 23.22,
+      },
+      {
+        "bitRate": 360,
+        "label": "Average (360p)",
+        "size": 15.96,
+      },
+      {
+        "bitRate": 240,
+        "label": "Low (240p)",
+        "size": 11.28,
+      },
+    ],
+    "visionularHls": {
+      "sourceLink": "aatma-knya-ki-ajsdkjsakhdjh234234.mp4",
+    },
+    "yearOfRelease": 2026,
+  },
+}
+`;
+
+exports[`MODULE: Movies Tests GET: /contents/movies/details should return movie details with watchProgress for previously watched movie 1`] = `
+{
+  "movie": {
+    "_id": 171,
+    "artistList": [
+      {
+        "callingName": "Ramnath",
+        "city": "Karnal",
+        "display": "Ramnath Shastry",
+        "firstName": "Ramnath",
+        "gender": "male",
+        "id": 101,
+        "lastName": "Shastry",
+        "name": "Ramnath Shastry",
+        "order": 1,
+        "profilePic": "XxIihPE7OCbJhYOUTjxS.jpeg",
+        "slug": "ramnath-shastri",
+        "status": "active",
+      },
+    ],
+    "categoryList": [
+      {
+        "id": 1,
+        "name": "Sample Category 170",
+      },
+    ],
+    "complianceList": [],
+    "complianceRating": "",
+    "contentDetailsCtaText": "देखना शुरू करें",
+    "contentWarnings": [],
+    "description": "170 Yahan kavi ne btaya hai ki ek kanya ki aatma kaise bhagwan se rote hue baat karti hai ki usko janam dene se pehle hi maar diya gaya aur wo duniya dekhne se kis terah vanchit reh gayi.",
+    "displayLanguage": "en",
+    "duration": 4190,
+    "genreList": [
+      {
+        "id": 1,
+        "name": "Action",
+      },
+      {
+        "id": 2,
+        "name": "Comedy",
+      },
+      {
+        "id": 3,
+        "name": "Drama",
+      },
+    ],
+    "introEndTime": 0,
+    "introStartTime": 0,
+    "isPremium": true,
+    "language": "har",
+    "lapsedPercent": 0,
+    "likeStatus": null,
+    "order": 289,
+    "preContentWarningText": "",
+    "restartPlayback": false,
+    "shareCopies": "आज ही देखो New Kanya Ki सिर्फ STAGE App पर 
+– और अब STAGE App आपके Smart TV 📺 पर भी!",
+    "slug": "new-khani",
+    "sourceLink": "new-kahani-knya-ki-ajsdkjsakhdjh234234.mp4",
+    "status": "active",
+    "thumbnail": {
+      "horizontal": {
+        "ratio1": {
+          "gradient": "#92542e",
+          "sourceLink": "W0oSq5idQfz70gtohlCH.jpeg",
+        },
+      },
+    },
+    "title": "New Kanya Ki",
+    "videoFormatDetails": [
+      {
+        "bitRate": 1080,
+        "label": "पूर्ण एचडी (1080p)",
+        "size": 43.17,
+      },
+      {
+        "bitRate": 720,
+        "label": "उच्च गुणवत्ता (720p)",
+        "size": 32.99,
+      },
+      {
+        "bitRate": 480,
+        "label": "मध्यम (480p)",
+        "size": 23.22,
+      },
+      {
+        "bitRate": 360,
+        "label": "औसत (360p)",
+        "size": 15.96,
+      },
+      {
+        "bitRate": 240,
+        "label": "निम्न (240p)",
+        "size": 11.28,
+      },
+    ],
+    "visionularHls": {
+      "sourceLink": "aatma-knya-ki-ajsdkjsakhdjh234234.mp4",
+    },
+    "yearOfRelease": 2026,
+  },
+}
+`;

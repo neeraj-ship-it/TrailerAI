@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MODULE: User Tests PATCH: /users/userCulture should not update initialUserCulture if it is not null 1`] = `
+{
+  "initialUserCulture": "har",
+  "userCulture": "raj",
+}
+`;
+
+exports[`MODULE: User Tests PATCH: /users/userCulture should return 400 if not authenticated 1`] = `
+{
+  "error": "authorization is required",
+  "message": "MISSING_HEADER",
+  "statusCode": 400,
+}
+`;
+
+exports[`MODULE: User Tests PATCH: /users/userCulture should return 404 if user culture is invalid 1`] = `
+{
+  "message": "USER_CULTURES_NOT_FOUND",
+  "statusCode": 404,
+}
+`;
+
+exports[`MODULE: User Tests PATCH: /users/userCulture should return users updated culture details 1`] = `
+{
+  "initialUserCulture": "har",
+  "userCulture": "har",
+}
+`;

@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MODULE: Upcoming Section Tests GET: /contents/upcoming should return  data with the correct format sorted by specific date provided 1`] = `
+{
+  "comingSoonListing": [
+    {
+      "_id": 1,
+      "artistList": [
+        {
+          "callingName": "Vishwas",
+          "city": "Bhiwani",
+          "display": "Vishwas Chauhan",
+          "firstName": "Vishwas",
+          "gender": "male",
+          "id": 162,
+          "lastName": "Chauhan",
+          "name": "Vishwas Chauhan",
+          "order": 0,
+          "profilePic": "veuINYvAdncA7izUD9so.jpeg",
+          "slug": "viswas",
+          "status": "active",
+        },
+      ],
+      "contentType": "show",
+      "displayLanguage": "en",
+      "displayMedia": "media",
+      "isLived": true,
+      "language": "har",
+      "mediaList": [
+        {
+          "duration": 183,
+          "hlsSourceLink": "PTFXXA3ZeyLBTD2JYX.m3u8",
+          "id": 105,
+          "selectedPeripheralStatus": true,
+          "sourceLink": "PTFXXA3ZeyLBTD2JYX.mp4",
+          "thumbnail": {
+            "horizontal": {},
+          },
+          "title": "Mere Yaar Ki Shaadi - Trailer",
+          "type": "show-peripheral",
+          "viewCount": 0,
+        },
+      ],
+      "posterReleaseDate": "2030-01-01T00:00:00.000Z",
+      "releaseDate": "2030-01-01T00:00:00.000Z",
+      "title": "Mere Yaar Ki Shaadi",
+      "trailerReleaseDate": "2030-01-01T00:00:00.000Z",
+    },
+    {
+      "_id": 2,
+      "artistList": [
+        {
+          "callingName": "Rohit",
+          "city": "Rohtak",
+          "display": "Rohit Sharma",
+          "firstName": "Rohit",
+          "gender": "male",
+          "id": 163,
+          "lastName": "Sharma",
+          "name": "Rohit Sharma",
+          "order": 0,
+          "profilePic": "rohituGhfU.jpeg",
+          "slug": "rohit",
+          "status": "active",
+        },
+      ],
+      "contentType": "show",
+      "displayLanguage": "en",
+      "displayMedia": "media",
+      "isLived": true,
+      "language": "har",
+      "mediaList": [
+        {
+          "duration": 200,
+          "hlsSourceLink": "YTTFXXA3ZeyLBTD2JYX.m3u8",
+          "id": 106,
+          "selectedPeripheralStatus": true,
+          "sourceLink": "YTTFXXA3ZeyLBTD2JYX.mp4",
+          "thumbnail": {
+            "horizontal": {},
+          },
+          "title": "Dosti Ki Kahani - Trailer",
+          "type": "show-peripheral",
+          "viewCount": 0,
+        },
+      ],
+      "posterReleaseDate": "2030-01-01T00:00:00.000Z",
+      "releaseDate": "2030-01-01T00:00:00.000Z",
+      "title": "Dosti Ki Kahani",
+      "trailerReleaseDate": "2030-01-01T00:00:00.000Z",
+    },
+  ],
+  "label": "Coming Soon",
+  "referralWidgetId": 12,
+}
+`;
+
+exports[`MODULE: Upcoming Section Tests GET: /contents/upcoming should return valid data with at least array length 1 1`] = `
+{
+  "comingSoonListing": [
+    {
+      "_id": 1,
+      "artistList": [
+        {
+          "callingName": "Vishwas",
+          "city": "Bhiwani",
+          "display": "Vishwas Chauhan",
+          "firstName": "Vishwas",
+          "gender": "male",
+          "id": 162,
+          "lastName": "Chauhan",
+          "name": "Vishwas Chauhan",
+          "order": 0,
+          "profilePic": "veuINYvAdncA7izUD9so.jpeg",
+          "slug": "viswas",
+          "status": "active",
+        },
+      ],
+      "contentType": "show",
+      "displayLanguage": "en",
+      "displayMedia": "media",
+      "isLived": true,
+      "language": "har",
+      "mediaList": [
+        {
+          "duration": 183,
+          "hlsSourceLink": "PTFXXA3ZeyLBTD2JYX.m3u8",
+          "id": 105,
+          "selectedPeripheralStatus": true,
+          "sourceLink": "PTFXXA3ZeyLBTD2JYX.mp4",
+          "thumbnail": {
+            "horizontal": {},
+          },
+          "title": "Mere Yaar Ki Shaadi - Trailer",
+          "type": "show-peripheral",
+          "viewCount": 0,
+        },
+      ],
+      "posterReleaseDate": "2030-01-01T00:00:00.000Z",
+      "releaseDate": "2030-01-01T00:00:00.000Z",
+      "title": "Mere Yaar Ki Shaadi",
+      "trailerReleaseDate": "2030-01-01T00:00:00.000Z",
+    },
+    {
+      "_id": 2,
+      "artistList": [
+        {
+          "callingName": "Rohit",
+          "city": "Rohtak",
+          "display": "Rohit Sharma",
+          "firstName": "Rohit",
+          "gender": "male",
+          "id": 163,
+          "lastName": "Sharma",
+          "name": "Rohit Sharma",
+          "order": 0,
+          "profilePic": "rohituGhfU.jpeg",
+          "slug": "rohit",
+          "status": "active",
+        },
+      ],
+      "contentType": "show",
+      "displayLanguage": "en",
+      "displayMedia": "media",
+      "isLived": true,
+      "language": "har",
+      "mediaList": [
+        {
+          "duration": 200,
+          "hlsSourceLink": "YTTFXXA3ZeyLBTD2JYX.m3u8",
+          "id": 106,
+          "selectedPeripheralStatus": true,
+          "sourceLink": "YTTFXXA3ZeyLBTD2JYX.mp4",
+          "thumbnail": {
+            "horizontal": {},
+          },
+          "title": "Dosti Ki Kahani - Trailer",
+          "type": "show-peripheral",
+          "viewCount": 0,
+        },
+      ],
+      "posterReleaseDate": "2030-01-01T00:00:00.000Z",
+      "releaseDate": "2030-01-01T00:00:00.000Z",
+      "title": "Dosti Ki Kahani",
+      "trailerReleaseDate": "2030-01-01T00:00:00.000Z",
+    },
+  ],
+  "label": "Coming Soon",
+  "referralWidgetId": 12,
+}
+`;

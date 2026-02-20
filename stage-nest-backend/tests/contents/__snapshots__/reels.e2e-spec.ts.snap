@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MODULE: Reels Tests GET: /contents/reels/id should return error when valid reelId is provided and user is not authenticated 1`] = `
+{
+  "error": "authorization is required",
+  "message": "MISSING_HEADER",
+  "statusCode": 400,
+}
+`;
+
+exports[`MODULE: Reels Tests GET: /contents/reels/id should return movie reel details when valid movie reelId is provided 1`] = `
+{
+  "_id": "507f1f77bcf86cd799439013",
+  "contentGenreList": [
+    "Action",
+    "Comedy",
+    "Drama",
+  ],
+  "contentId": 1711,
+  "contentSlug": "hindi-movie-for-reels",
+  "contentThumbnail": {
+    "horizontal": {
+      "ratio1": {
+        "gradient": "#92542e",
+        "sourceLink": "W0oSq5idQfz70gtohlCH.jpeg",
+      },
+    },
+  },
+  "contentTitle": "Hindi Movie",
+  "contentType": "individual",
+  "continueWatching": false,
+  "description": "कलाकारों के साक्षात्कार और अंतर्दृष्टि",
+  "duration": 180,
+  "id": "507f1f77bcf86cd799439013",
+  "isLiked": false,
+  "likesCount": 10000,
+  "plotKeywords": [
+    "साक्षात्कार",
+    "कलाकार",
+    "अंतर्दृष्टि",
+  ],
+  "reelType": "cast_interviews",
+  "shareCount": 10000,
+  "status": "published",
+  "thumbnail": {
+    "ratio_9_16": "https://example.com/thumbnail3-hin.jpg",
+  },
+  "title": "कलाकारों के साक्षात्कार: निर्माण",
+  "type": "reel",
+  "viewCount": 2000,
+  "visionularHLS": "https://media.stage.in/reels/individual/hindi-movie-for-reels/reels/HLS/reel3.m3u8",
+}
+`;
+
+exports[`MODULE: Reels Tests GET: /contents/reels/id should return reel details when valid reelId is provided and user is authenticated 1`] = `
+{
+  "_id": "507f1f77bcf86cd799439011",
+  "contentGenreList": [
+    "Action",
+    "Comedy",
+    "Drama",
+  ],
+  "contentId": 7,
+  "contentSlug": "choriyaan-bojh-na-hoti",
+  "contentThumbnail": {
+    "horizontal": {
+      "ratio1": {
+        "gradient": "#93552e",
+        "sourceLink": "showImage-1588584258059.jpg",
+      },
+      "ratio2": {
+        "gradient": "#93552e",
+        "sourceLink": "showImage-1594971377633.jpg",
+      },
+      "ratio3": {
+        "gradient": "",
+        "sourceLink": "",
+      },
+    },
+    "square": {
+      "ratio1": {
+        "gradient": "#93552e",
+        "sourceLink": "showImage-1594971377633.jpg",
+      },
+    },
+    "vertical": {
+      "ratio1": {
+        "gradient": "#93552e",
+        "sourceLink": "choriyaan-bojh-na-hoti_har_hin_2_3.jpg",
+      },
+    },
+  },
+  "contentTitle": "छोरियाँ बोझ ना होती",
+  "contentType": "show",
+  "continueWatching": false,
+  "description": "हमारे अद्भुत शो के पीछे की कहानी",
+  "duration": 120,
+  "id": "507f1f77bcf86cd799439011",
+  "isLiked": false,
+  "likesCount": 10000,
+  "plotKeywords": [
+    "पीछे की कहानी",
+    "बनाने की प्रक्रिया",
+    "विशेष",
+  ],
+  "reelType": "behind_the_scenes",
+  "shareCount": 10000,
+  "status": "published",
+  "thumbnail": {
+    "ratio_9_16": "https://example.com/thumbnail1-hin.jpg",
+  },
+  "title": "पीछे की कहानी: एपिसोड 1",
+  "type": "reel",
+  "viewCount": 1000,
+  "visionularHLS": "https://media.stage.in/reels/show/choriyaan-bojh-na-hoti/reels/HLS/reel1.m3u8",
+}
+`;

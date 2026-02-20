@@ -1,0 +1,1 @@
+export { VariantDetails } from "./VariantDetails"; 

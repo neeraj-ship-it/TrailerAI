@@ -1,0 +1,688 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MODULE: Shows Tests GET: /contents/shows/details should return show details when valid showId is provided 1`] = `
+{
+  "episodes": [
+    {
+      "_id": 17,
+      "description": "Yahan kavi ne btaya hai ki ek kanya ki aatma kaise bhagwan se rote hue baat karti hai ki usko janam dene se pehle hi maar diya gaya aur wo duniya dekhne se kis terah vanchit reh gayi.",
+      "displayLanguage": "en",
+      "duration": 419,
+      "episodeOrder": 5,
+      "freeEpisode": false,
+      "genreList": [
+        {
+          "id": 1,
+          "name": "Action",
+        },
+        {
+          "id": 2,
+          "name": "Comedy",
+        },
+        {
+          "id": 3,
+          "name": "Drama",
+        },
+      ],
+      "introEndTime": 0,
+      "introStartTime": 0,
+      "isPremium": true,
+      "language": "har",
+      "nextEpisodeNudgeStartTime": 0,
+      "order": 289,
+      "slug": "aatma-kanya-ki",
+      "thumbnail": {
+        "horizontal": {
+          "ratio1": {
+            "gradient": "#92542e",
+            "sourceLink": "W0oSq5idQfz70gtohlCH.jpeg",
+          },
+        },
+      },
+      "title": "Aatma Kanya Ki",
+      "type": "season",
+      "videoFormatDetails": [
+        {
+          "bitRate": 1080,
+          "label": "पूर्ण एचडी (1080p)",
+          "size": 43.17,
+        },
+        {
+          "bitRate": 720,
+          "label": "उच्च गुणवत्ता (720p)",
+          "size": 32.99,
+        },
+        {
+          "bitRate": 480,
+          "label": "मध्यम (480p)",
+          "size": 23.22,
+        },
+        {
+          "bitRate": 360,
+          "label": "औसत (360p)",
+          "size": 15.96,
+        },
+        {
+          "bitRate": 240,
+          "label": "निम्न (240p)",
+          "size": 11.28,
+        },
+      ],
+    },
+    {
+      "_id": 171,
+      "description": "170 Yahan kavi ne btaya hai ki ek kanya ki aatma kaise bhagwan se rote hue baat karti hai ki usko janam dene se pehle hi maar diya gaya aur wo duniya dekhne se kis terah vanchit reh gayi.",
+      "displayLanguage": "en",
+      "duration": 4190,
+      "episodeOrder": 1,
+      "freeEpisode": false,
+      "genreList": [
+        {
+          "id": 1,
+          "name": "Action",
+        },
+        {
+          "id": 2,
+          "name": "Comedy",
+        },
+        {
+          "id": 3,
+          "name": "Drama",
+        },
+      ],
+      "introEndTime": 0,
+      "introStartTime": 0,
+      "isPremium": true,
+      "language": "har",
+      "nextEpisodeNudgeStartTime": 0,
+      "order": 289,
+      "slug": "new-khani",
+      "thumbnail": {
+        "horizontal": {
+          "ratio1": {
+            "gradient": "#92542e",
+            "sourceLink": "W0oSq5idQfz70gtohlCH.jpeg",
+          },
+        },
+      },
+      "title": "New Kanya Ki",
+      "type": "individual",
+      "videoFormatDetails": [
+        {
+          "bitRate": 1080,
+          "label": "पूर्ण एचडी (1080p)",
+          "size": 43.17,
+        },
+        {
+          "bitRate": 720,
+          "label": "उच्च गुणवत्ता (720p)",
+          "size": 32.99,
+        },
+        {
+          "bitRate": 480,
+          "label": "मध्यम (480p)",
+          "size": 23.22,
+        },
+        {
+          "bitRate": 360,
+          "label": "औसत (360p)",
+          "size": 15.96,
+        },
+        {
+          "bitRate": 240,
+          "label": "निम्न (240p)",
+          "size": 11.28,
+        },
+      ],
+    },
+    {
+      "_id": 170,
+      "description": "170 Yahan kavi ne btaya hai ki ek kanya ki aatma kaise bhagwan se rote hue baat karti hai ki usko janam dene se pehle hi maar diya gaya aur wo duniya dekhne se kis terah vanchit reh gayi.",
+      "displayLanguage": "en",
+      "duration": 4190,
+      "episodeOrder": 1,
+      "freeEpisode": false,
+      "genreList": [
+        {
+          "id": 1,
+          "name": "Action",
+        },
+        {
+          "id": 2,
+          "name": "Comedy",
+        },
+        {
+          "id": 3,
+          "name": "Drama",
+        },
+      ],
+      "introEndTime": 0,
+      "introStartTime": 0,
+      "isPremium": true,
+      "language": "har",
+      "nextEpisodeNudgeStartTime": 0,
+      "order": 289,
+      "slug": "new-khani",
+      "thumbnail": {
+        "horizontal": {
+          "ratio1": {
+            "gradient": "#92542e",
+            "sourceLink": "W0oSq5idQfz70gtohlCH.jpeg",
+          },
+        },
+      },
+      "title": "New Kanya Ki",
+      "type": "individual",
+      "videoFormatDetails": [
+        {
+          "bitRate": 1080,
+          "label": "पूर्ण एचडी (1080p)",
+          "size": 43.17,
+        },
+        {
+          "bitRate": 720,
+          "label": "उच्च गुणवत्ता (720p)",
+          "size": 32.99,
+        },
+        {
+          "bitRate": 480,
+          "label": "मध्यम (480p)",
+          "size": 23.22,
+        },
+        {
+          "bitRate": 360,
+          "label": "औसत (360p)",
+          "size": 15.96,
+        },
+        {
+          "bitRate": 240,
+          "label": "निम्न (240p)",
+          "size": 11.28,
+        },
+      ],
+    },
+  ],
+  "show": {
+    "_id": 7,
+    "description": "हरियाणा में साक्षरता दर काम होने की वजह से लोग अक्सर लड़कियों को लड़कों से कम समझते हैं, और इस वजह से भ्रूण हत्या, दहेज़, कम उम्र में लड़कियों की शादी कर देना जैसे अपराध कर देते हैं। इस शो के जरिये हम उन सब लोगों तक पहुँचने की कोशिश करेंगे और उन्हें ये बताने की कोशिश करेंगे की लड़कियां समाज का बहुत महत्त्वपूर्ण हिस्सा हैं और वो किसी से कम नहीं होती हैं।",
+    "displayLanguage": "hin",
+    "isPremium": true,
+    "language": "har",
+    "slug": "choriyaan-bojh-na-hoti",
+    "thumbnail": {
+      "horizontal": {
+        "ratio1": {
+          "gradient": "#93552e",
+          "sourceLink": "showImage-1588584258059.jpg",
+        },
+        "ratio2": {
+          "gradient": "#93552e",
+          "sourceLink": "showImage-1594971377633.jpg",
+        },
+        "ratio3": {
+          "gradient": "",
+          "sourceLink": "",
+        },
+      },
+      "square": {
+        "ratio1": {
+          "gradient": "#93552e",
+          "sourceLink": "showImage-1594971377633.jpg",
+        },
+      },
+      "vertical": {
+        "ratio1": {
+          "gradient": "#93552e",
+          "sourceLink": "choriyaan-bojh-na-hoti_har_hin_2_3.jpg",
+        },
+      },
+    },
+    "title": "छोरियाँ बोझ ना होती",
+  },
+}
+`;
+
+exports[`MODULE: Shows Tests GET: /contents/shows/details v2 should return show details when valid showId is provided and user is authenticated 1`] = `
+{
+  "data": {
+    "complianceList": [],
+    "contentDetailsCtaText": "देखना शुरू करें S1 E1",
+    "description": "Ya kahani se Sonu ki jo ek manchalya chhora se. Iss bin Maa ki chhori ki rukhal iska Babu Roshan karya kare. Roshan ka bs ek e sapna hai, Mera chhora padh-likhke khoob badiya number lyave. Isse khatar Roshan khave kamave se. Par Sonu ek bhayankar bimaari ka sikaar hojya se jisne kaya karein ISHQ. Ib Sonu Babu ka sapna pura kar pavega ya fer chhori ke sapne meh kuya ravega? Yo toh aapne puri web-series dekhe pache khud bera paat jyaga.",
+    "displayLanguage": "en",
+    "episodes": [],
+    "format": "standard",
+    "id": 309,
+    "isPremium": true,
+    "language": "har",
+    "lastSeenDetail": {
+      "episodeId": null,
+      "episodeSlug": null,
+      "seasonId": 311,
+      "seasonSlug": "prem-nagar-season---1",
+      "showSlug": "prem-nagar",
+    },
+    "likeStatus": "superlike",
+    "pagination": {
+      "currentPage": 1,
+      "pages": [],
+    },
+    "seasonDuration": 0,
+    "seasonId": 311,
+    "seasonSlug": "prem-nagar-season---1",
+    "selectedPeripheral": {
+      "duration": 172,
+      "hlsSourceLink": "diEOblOSWTrcejY7ri.m3u8",
+      "sourceLink": "diEOblOSWTrcejY7ri.mp4",
+      "thumbnail": {
+        "horizontal": {
+          "sourceLink": "showImage-1644651782793.jpg",
+        },
+        "square": {
+          "sourceLink": "",
+        },
+        "vertical": {
+          "sourceLink": "",
+        },
+      },
+      "title": "Prem Nagar - Trailer",
+      "type": "show-peripheral",
+      "viewCount": 0,
+      "visionularHls": {
+        "hlsSourcelink": "prem-nagar_1674136765608/playlist.m3u8",
+        "sourceLink": "diEOblOSWTrcejY7ri.mp4",
+        "status": "succeeded",
+        "visionularTaskId": "20230119135926174785147eafef9203",
+      },
+      "visionularHlsH265": {
+        "hlsSourcelink": "prem-nagar_1674136762770/playlist.m3u8",
+        "sourceLink": "diEOblOSWTrcejY7ri.mp4",
+        "status": "succeeded",
+        "visionularTaskId": "202301191359233288452711e9e44d9d",
+      },
+    },
+    "shareCopies": "आज ही देखो Prem Nagar सिर्फ STAGE App पर 
+– और अब STAGE App आपके Smart TV 📺 पर भी!",
+    "slug": "prem-nagar",
+    "status": "active",
+    "thumbnail": {
+      "horizontal": {
+        "ratio1": {
+          "gradient": "#f3d36d",
+          "sourceLink": "showImage-1644651730319.jpg",
+        },
+        "ratio2": {
+          "gradient": "#f3d36d",
+          "sourceLink": "showImage-1644651758278.jpg",
+        },
+        "ratio3": {
+          "gradient": "",
+          "sourceLink": "Prem_Nagar_Eng_HAR_TV.jpg",
+        },
+      },
+      "square": {
+        "ratio1": {
+          "gradient": "#f3d36d",
+          "sourceLink": "showImage-1644651758278.jpg",
+        },
+      },
+      "vertical": {
+        "ratio1": {
+          "gradient": "#f3d36d",
+          "sourceLink": "prem-nagar_Har_Eng2x3.jpg",
+        },
+      },
+    },
+    "title": "Prem Nagar",
+    "totalEpisodes": 0,
+    "totalSeasons": 1,
+    "yearOfRelease": null,
+  },
+  "seasonList": [
+    {
+      "episodeCount": 0,
+      "id": 311,
+      "isNew": false,
+      "seasonOrder": 1,
+      "status": "active",
+    },
+  ],
+}
+`;
+
+exports[`MODULE: Shows Tests GET: /contents/shows/details v2 should return show details when valid showId is provided and user is not authenticated 1`] = `
+{
+  "data": {
+    "complianceList": [],
+    "contentDetailsCtaText": "देखना शुरू करें S1 E1",
+    "description": "Ya kahani se Sonu ki jo ek manchalya chhora se. Iss bin Maa ki chhori ki rukhal iska Babu Roshan karya kare. Roshan ka bs ek e sapna hai, Mera chhora padh-likhke khoob badiya number lyave. Isse khatar Roshan khave kamave se. Par Sonu ek bhayankar bimaari ka sikaar hojya se jisne kaya karein ISHQ. Ib Sonu Babu ka sapna pura kar pavega ya fer chhori ke sapne meh kuya ravega? Yo toh aapne puri web-series dekhe pache khud bera paat jyaga.",
+    "displayLanguage": "en",
+    "episodes": [],
+    "format": "standard",
+    "id": 309,
+    "isPremium": true,
+    "language": "har",
+    "lastSeenDetail": {
+      "episodeId": null,
+      "episodeSlug": null,
+      "seasonId": 311,
+      "seasonSlug": "prem-nagar-season---1",
+      "showSlug": "prem-nagar",
+    },
+    "likeStatus": null,
+    "pagination": {
+      "currentPage": 1,
+      "pages": [],
+    },
+    "seasonDuration": 0,
+    "seasonId": 311,
+    "seasonSlug": "prem-nagar-season---1",
+    "selectedPeripheral": {
+      "duration": 172,
+      "hlsSourceLink": "diEOblOSWTrcejY7ri.m3u8",
+      "sourceLink": "diEOblOSWTrcejY7ri.mp4",
+      "thumbnail": {
+        "horizontal": {
+          "sourceLink": "showImage-1644651782793.jpg",
+        },
+        "square": {
+          "sourceLink": "",
+        },
+        "vertical": {
+          "sourceLink": "",
+        },
+      },
+      "title": "Prem Nagar - Trailer",
+      "type": "show-peripheral",
+      "viewCount": 0,
+      "visionularHls": {
+        "hlsSourcelink": "prem-nagar_1674136765608/playlist.m3u8",
+        "sourceLink": "diEOblOSWTrcejY7ri.mp4",
+        "status": "succeeded",
+        "visionularTaskId": "20230119135926174785147eafef9203",
+      },
+      "visionularHlsH265": {
+        "hlsSourcelink": "prem-nagar_1674136762770/playlist.m3u8",
+        "sourceLink": "diEOblOSWTrcejY7ri.mp4",
+        "status": "succeeded",
+        "visionularTaskId": "202301191359233288452711e9e44d9d",
+      },
+    },
+    "shareCopies": "आज ही देखो Prem Nagar सिर्फ STAGE App पर 
+– और अब STAGE App आपके Smart TV 📺 पर भी!",
+    "slug": "prem-nagar",
+    "status": "active",
+    "thumbnail": {
+      "horizontal": {
+        "ratio1": {
+          "gradient": "#f3d36d",
+          "sourceLink": "showImage-1644651730319.jpg",
+        },
+        "ratio2": {
+          "gradient": "#f3d36d",
+          "sourceLink": "showImage-1644651758278.jpg",
+        },
+        "ratio3": {
+          "gradient": "",
+          "sourceLink": "Prem_Nagar_Eng_HAR_TV.jpg",
+        },
+      },
+      "square": {
+        "ratio1": {
+          "gradient": "#f3d36d",
+          "sourceLink": "showImage-1644651758278.jpg",
+        },
+      },
+      "vertical": {
+        "ratio1": {
+          "gradient": "#f3d36d",
+          "sourceLink": "prem-nagar_Har_Eng2x3.jpg",
+        },
+      },
+    },
+    "title": "Prem Nagar",
+    "totalEpisodes": 0,
+    "totalSeasons": 1,
+    "yearOfRelease": null,
+  },
+  "seasonList": [
+    {
+      "episodeCount": 0,
+      "id": 311,
+      "isNew": false,
+      "seasonOrder": 1,
+      "status": "active",
+    },
+  ],
+}
+`;
+
+exports[`MODULE: Shows Tests GET: /contents/shows/details v2 should return show details with artistList on platform web only when valid showId is provided and user is authenticated 1`] = `
+{
+  "data": {
+    "artistList": [
+      {
+        "callingName": "Sanjeet Saroha",
+        "city": "Bhiwani",
+        "display": "Sanjeet Saroha",
+        "firstName": "Sanjeet",
+        "gender": "male",
+        "id": 103,
+        "lastName": "Saroha",
+        "name": "Sanjeet Saroha",
+        "order": 0,
+        "profilePic": "oW1S3qFLtURHX4XzPQty.jpeg",
+        "slug": "sanjeet-saroha",
+        "status": "active",
+      },
+    ],
+    "complianceList": [],
+    "contentDetailsCtaText": "देखना शुरू करें S1 E1",
+    "description": "Ya kahani se Sonu ki jo ek manchalya chhora se. Iss bin Maa ki chhori ki rukhal iska Babu Roshan karya kare. Roshan ka bs ek e sapna hai, Mera chhora padh-likhke khoob badiya number lyave. Isse khatar Roshan khave kamave se. Par Sonu ek bhayankar bimaari ka sikaar hojya se jisne kaya karein ISHQ. Ib Sonu Babu ka sapna pura kar pavega ya fer chhori ke sapne meh kuya ravega? Yo toh aapne puri web-series dekhe pache khud bera paat jyaga.",
+    "displayLanguage": "en",
+    "episodes": [],
+    "format": "standard",
+    "id": 309,
+    "isPremium": true,
+    "isWatchlistedContent": false,
+    "language": "har",
+    "lastSeenDetail": {
+      "episodeId": null,
+      "episodeSlug": null,
+      "seasonId": 311,
+      "seasonSlug": "prem-nagar-season---1",
+      "showSlug": "prem-nagar",
+    },
+    "likeStatus": null,
+    "pagination": {
+      "currentPage": 1,
+      "pages": [],
+    },
+    "seasonDuration": 0,
+    "seasonId": 311,
+    "seasonSlug": "prem-nagar-season---1",
+    "selectedPeripheral": {
+      "duration": 172,
+      "hlsSourceLink": "diEOblOSWTrcejY7ri.m3u8",
+      "sourceLink": "diEOblOSWTrcejY7ri.mp4",
+      "thumbnail": {
+        "horizontal": {
+          "sourceLink": "showImage-1644651782793.jpg",
+        },
+        "square": {
+          "sourceLink": "",
+        },
+        "vertical": {
+          "sourceLink": "",
+        },
+      },
+      "title": "Prem Nagar - Trailer",
+      "type": "show-peripheral",
+      "viewCount": 0,
+      "visionularHls": {
+        "hlsSourcelink": "prem-nagar_1674136765608/playlist.m3u8",
+        "sourceLink": "diEOblOSWTrcejY7ri.mp4",
+        "status": "succeeded",
+        "visionularTaskId": "20230119135926174785147eafef9203",
+      },
+      "visionularHlsH265": {
+        "hlsSourcelink": "prem-nagar_1674136762770/playlist.m3u8",
+        "sourceLink": "diEOblOSWTrcejY7ri.mp4",
+        "status": "succeeded",
+        "visionularTaskId": "202301191359233288452711e9e44d9d",
+      },
+    },
+    "shareCopies": "आज ही देखो Prem Nagar सिर्फ STAGE App पर 
+– और अब STAGE App आपके Smart TV 📺 पर भी!",
+    "slug": "prem-nagar",
+    "status": "active",
+    "thumbnail": {
+      "horizontal": {
+        "ratio1": {
+          "gradient": "#f3d36d",
+          "sourceLink": "showImage-1644651730319.jpg",
+        },
+        "ratio2": {
+          "gradient": "#f3d36d",
+          "sourceLink": "showImage-1644651758278.jpg",
+        },
+        "ratio3": {
+          "gradient": "",
+          "sourceLink": "Prem_Nagar_Eng_HAR_TV.jpg",
+        },
+      },
+      "square": {
+        "ratio1": {
+          "gradient": "#f3d36d",
+          "sourceLink": "showImage-1644651758278.jpg",
+        },
+      },
+      "vertical": {
+        "ratio1": {
+          "gradient": "#f3d36d",
+          "sourceLink": "prem-nagar_Har_Eng2x3.jpg",
+        },
+      },
+    },
+    "title": "Prem Nagar",
+    "totalEpisodes": 0,
+    "totalSeasons": 1,
+    "yearOfRelease": null,
+  },
+  "seasonList": [
+    {
+      "episodeCount": 0,
+      "id": 311,
+      "isNew": false,
+      "seasonOrder": 1,
+      "status": "active",
+    },
+  ],
+}
+`;
+
+exports[`MODULE: Shows Tests GET: /contents/shows/details v2 should return show details without artistList on platform not web when valid showId is provided and user is authenticated 1`] = `
+{
+  "data": {
+    "complianceList": [],
+    "contentDetailsCtaText": "देखना शुरू करें S1 E1",
+    "description": "Ya kahani se Sonu ki jo ek manchalya chhora se. Iss bin Maa ki chhori ki rukhal iska Babu Roshan karya kare. Roshan ka bs ek e sapna hai, Mera chhora padh-likhke khoob badiya number lyave. Isse khatar Roshan khave kamave se. Par Sonu ek bhayankar bimaari ka sikaar hojya se jisne kaya karein ISHQ. Ib Sonu Babu ka sapna pura kar pavega ya fer chhori ke sapne meh kuya ravega? Yo toh aapne puri web-series dekhe pache khud bera paat jyaga.",
+    "displayLanguage": "en",
+    "episodes": [],
+    "format": "standard",
+    "id": 309,
+    "isPremium": true,
+    "language": "har",
+    "lastSeenDetail": {
+      "episodeId": null,
+      "episodeSlug": null,
+      "seasonId": 311,
+      "seasonSlug": "prem-nagar-season---1",
+      "showSlug": "prem-nagar",
+    },
+    "likeStatus": null,
+    "pagination": {
+      "currentPage": 1,
+      "pages": [],
+    },
+    "seasonDuration": 0,
+    "seasonId": 311,
+    "seasonSlug": "prem-nagar-season---1",
+    "selectedPeripheral": {
+      "duration": 172,
+      "hlsSourceLink": "diEOblOSWTrcejY7ri.m3u8",
+      "sourceLink": "diEOblOSWTrcejY7ri.mp4",
+      "thumbnail": {
+        "horizontal": {
+          "sourceLink": "showImage-1644651782793.jpg",
+        },
+        "square": {
+          "sourceLink": "",
+        },
+        "vertical": {
+          "sourceLink": "",
+        },
+      },
+      "title": "Prem Nagar - Trailer",
+      "type": "show-peripheral",
+      "viewCount": 0,
+      "visionularHls": {
+        "hlsSourcelink": "prem-nagar_1674136765608/playlist.m3u8",
+        "sourceLink": "diEOblOSWTrcejY7ri.mp4",
+        "status": "succeeded",
+        "visionularTaskId": "20230119135926174785147eafef9203",
+      },
+      "visionularHlsH265": {
+        "hlsSourcelink": "prem-nagar_1674136762770/playlist.m3u8",
+        "sourceLink": "diEOblOSWTrcejY7ri.mp4",
+        "status": "succeeded",
+        "visionularTaskId": "202301191359233288452711e9e44d9d",
+      },
+    },
+    "shareCopies": "आज ही देखो Prem Nagar सिर्फ STAGE App पर 
+– और अब STAGE App आपके Smart TV 📺 पर भी!",
+    "slug": "prem-nagar",
+    "status": "active",
+    "thumbnail": {
+      "horizontal": {
+        "ratio1": {
+          "gradient": "#f3d36d",
+          "sourceLink": "showImage-1644651730319.jpg",
+        },
+        "ratio2": {
+          "gradient": "#f3d36d",
+          "sourceLink": "showImage-1644651758278.jpg",
+        },
+        "ratio3": {
+          "gradient": "",
+          "sourceLink": "Prem_Nagar_Eng_HAR_TV.jpg",
+        },
+      },
+      "square": {
+        "ratio1": {
+          "gradient": "#f3d36d",
+          "sourceLink": "showImage-1644651758278.jpg",
+        },
+      },
+      "vertical": {
+        "ratio1": {
+          "gradient": "#f3d36d",
+          "sourceLink": "prem-nagar_Har_Eng2x3.jpg",
+        },
+      },
+    },
+    "title": "Prem Nagar",
+    "totalEpisodes": 0,
+    "totalSeasons": 1,
+    "yearOfRelease": null,
+  },
+  "seasonList": [
+    {
+      "episodeCount": 0,
+      "id": 311,
+      "isNew": false,
+      "seasonOrder": 1,
+      "status": "active",
+    },
+  ],
+}
+`;

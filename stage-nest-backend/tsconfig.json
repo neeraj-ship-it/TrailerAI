@@ -1,0 +1,73 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "target": "ESNext",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": false,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "typeRoots": ["./types", "./node_modules/@types"],
+    "paths": {
+      "common/*": ["./common/*"],
+      "@app/common/*": ["./common/*"],
+      "@app/cache-manager": ["libs/cache-manager/src"],
+      "@app/cache-manager/*": ["libs/cache-manager/src/*"],
+      "@app/error-handler": ["libs/error-handler/src"],
+      "@app/error-handler/*": ["libs/error-handler/src/*"],
+      "@app/repository-cache": ["libs/repository-cache/src"],
+      "@app/repository-cache/*": ["libs/repository-cache/src/*"],
+      "@app/auth": ["libs/auth/src"],
+      "@app/auth/*": ["libs/auth/src/*"],
+      "@app/jobs": ["libs/jobs/src"],
+      "@app/jobs/*": ["libs/jobs/src/*"],
+      "@app/logger": ["libs/logger/src"],
+      "@app/logger/*": ["libs/logger/src/*"],
+      "@app/events": ["libs/events/src"],
+      "@app/events/*": ["libs/events/src/*"],
+      "@app/shared": ["./src/shared"],
+      "@app/shared/*": ["./src/shared/*"],
+      "@app/payment": ["./src/payment"],
+      "@app/payment/*": ["./src/payment/*"],
+      "@app/admin": ["./src/admin"],
+      "@app/admin/*": ["./src/admin/*"],
+      "@app/kafka": ["libs/kafka/src"],
+      "@app/kafka/*": ["libs/kafka/src/*"],
+      "@app/cms": ["./src/cms"],
+      "@app/cms/*": ["./src/cms/*"],
+      "@app/storage": ["libs/storage/src"],
+      "@app/storage/*": ["libs/storage/src/*"],
+      "@app/redis": ["libs/redis/src"],
+      "@app/redis/*": ["libs/redis/src/*"]
+    },
+    "plugins": [
+      {
+        "transform": "@nestia/core/lib/transform",
+        "validate": "assert",
+        "stringify": "assert"
+      },
+      {
+        "transform": "@nestia/sdk/lib/transform"
+      },
+      {
+        "transform": "typia/lib/transform"
+      }
+    ]
+  },
+  "include": ["**/*.ts", "types/*.ts"]
+}

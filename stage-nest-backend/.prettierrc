@@ -1,0 +1,12 @@
+{
+  "singleQuote": true,
+  "trailingComma": "all",
+  "tabWidth": 2,
+  "semi": true,
+  "printWidth": 80,
+  "endOfLine": "auto",
+  "sortingMethod": "alphabetical",
+  "importTypeOrder": ["NPMPackages", "localImports"],
+  "newlineBetweenTypes": true,
+  "plugins": ["./node_modules/prettier-plugin-sort-imports/dist/index.js"]
+}

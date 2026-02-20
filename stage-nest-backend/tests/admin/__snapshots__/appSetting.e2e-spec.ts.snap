@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MODULE: PG Config Tests GET: /admin/appSetting/config should get pg config response for various payment options 1`] = `
+{
+  "customPaymentOptions": [
+    {
+      "appName": "Google Pay",
+      "displayText": "(Recommended)",
+      "isEnabled": true,
+      "packageName": "com.google.android.apps.nbu.paisa.user",
+      "paymentGateway": "JUSPAY",
+    },
+    {
+      "appName": "Paytm",
+      "displayText": "",
+      "isEnabled": true,
+      "packageName": "net.one97.paytm",
+      "paymentGateway": "PAYTM",
+    },
+  ],
+  "paymentOptions": [
+    {
+      "appName": "PhonePe",
+      "displayText": "(Recommended)",
+      "isEnabled": true,
+      "packageName": "com.phonepe.app",
+      "paymentGateway": "PAYTM",
+    },
+    {
+      "appName": "Paytm",
+      "displayText": "",
+      "isEnabled": true,
+      "packageName": "net.one97.paytm",
+      "paymentGateway": "PHONEPE",
+    },
+    {
+      "appName": "Google Pay",
+      "displayText": "",
+      "isEnabled": true,
+      "packageName": "com.google.android.apps.nbu.paisa.user",
+      "paymentGateway": "PHONEPE",
+    },
+    {
+      "appName": "अन्य पेमेंट ऑप्शन",
+      "displayText": "",
+      "isEnabled": false,
+      "packageName": "JUSPAYSDK",
+      "paymentGateway": "JUSPAY",
+    },
+  ],
+  "paywallPaymentOptions": [
+    {
+      "appName": "Google Pay",
+      "displayText": "(Recommended)",
+      "isEnabled": true,
+      "packageName": "com.google.android.apps.nbu.paisa.user",
+      "paymentGateway": "JUSPAY",
+    },
+    {
+      "appName": "Paytm",
+      "displayText": "",
+      "isEnabled": true,
+      "packageName": "net.one97.paytm",
+      "paymentGateway": "PAYTM",
+    },
+  ],
+  "possibleAppCombinations": {
+    "Google Pay": {
+      "appName": "Google Pay",
+      "appPackageName": "com.google.android.apps.nbu.paisa.user",
+      "supportedPGs": [
+        "JUSPAY",
+      ],
+    },
+    "Paytm": {
+      "appName": "Paytm",
+      "appPackageName": "net.one97.paytm",
+      "supportedPGs": [
+        "PHONEPE",
+        "PAYTM",
+        "JUSPAY",
+      ],
+    },
+    "PhonePe": {
+      "appName": "PhonePe",
+      "appPackageName": "com.phonepe.app",
+      "supportedPGs": [
+        "PHONEPE",
+        "JUSPAY",
+      ],
+    },
+    "Qr Code": {
+      "appName": "Qr Code",
+      "appPackageName": "qrCode",
+      "supportedPGs": [
+        "PHONEPE",
+      ],
+    },
+    "UPI ID से भुगतान करें": {
+      "appName": "UPI ID से भुगतान करें",
+      "appPackageName": "upiCollect",
+      "supportedPGs": [
+        "PHONEPE",
+      ],
+    },
+    "UPI से भुगतान करें": {
+      "appName": "UPI से भुगतान करें",
+      "appPackageName": "allApps",
+      "supportedPGs": [
+        "PHONEPE",
+      ],
+    },
+    "अन्य पेमेंट ऑप्शन": {
+      "appName": "अन्य पेमेंट ऑप्शन",
+      "appPackageName": "JUSPAYSDK",
+      "supportedPGs": [
+        "JUSPAY_CHECKOUT",
+      ],
+    },
+  },
+  "webPaymentOptions": [
+    {
+      "appName": "Google Pay",
+      "displayText": "(Recommended)",
+      "isEnabled": true,
+      "packageName": "com.google.android.apps.nbu.paisa.user",
+      "paymentGateway": "JUSPAY",
+    },
+    {
+      "appName": "Paytm",
+      "displayText": "",
+      "isEnabled": true,
+      "packageName": "net.one97.paytm",
+      "paymentGateway": "PAYTM",
+    },
+  ],
+}
+`;

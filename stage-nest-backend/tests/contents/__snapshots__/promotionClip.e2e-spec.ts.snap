@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MODULE: Promotion Clip Tests GET: /contents/promotionClip should handle invalid contentId format gracefully 1`] = `
+{
+  "expected": "(number | undefined)",
+  "message": "Request query data is not following the promised type.",
+  "path": "$input.contentId",
+  "reason": "Error on TypedQuery(): invalid type on $input.contentId, expect to be (number | undefined)",
+  "value": "invalid",
+}
+`;
+
+exports[`MODULE: Promotion Clip Tests GET: /contents/promotionClip should handle invalid contentType gracefully 1`] = `
+{
+  "expected": "("individual" | "show" | undefined)",
+  "message": "Request query data is not following the promised type.",
+  "path": "$input.contentType",
+  "reason": "Error on TypedQuery(): invalid type on $input.contentType, expect to be ("individual" | "show" | undefined)",
+  "value": "invalid",
+}
+`;
+
+exports[`MODULE: Promotion Clip Tests GET: /contents/promotionClip should handle missing language and platform headers gracefully 1`] = `
+{
+  "descriptionText": "शो · 29m",
+  "infoText": "अब देखना शुरू करें",
+  "playbackURL": "https://media.stage.in/trailers/show/choriyaan-bojh-na-hoti/trailer/HLS/",
+  "thumbnailURL": "https://media.stage.in/show/horizontal/small/showImage-1588584258059.jpg",
+  "titleText": "छोरियाँ बोझ ना होती",
+}
+`;
+
+exports[`MODULE: Promotion Clip Tests GET: /contents/promotionClip should return 401 for unauthenticated requests 1`] = `
+{
+  "message": "INVALID_CREDENTIAL",
+  "statusCode": 401,
+}
+`;
+
+exports[`MODULE: Promotion Clip Tests GET: /contents/promotionClip should return fallback clip for non-existent movie contentId 1`] = `
+{
+  "descriptionText": "",
+  "infoText": "Now start watching",
+  "playbackURL": "https://media.stage.in/subscription/tnpl_2/NC_subscription_success_hindi_v1.mp4",
+  "thumbnailURL": "https://media.stage.in/icons/success1x_icon_18oct.png",
+  "titleText": "Your favourite movie/show is ready",
+}
+`;
+
+exports[`MODULE: Promotion Clip Tests GET: /contents/promotionClip should return fallback clip for non-existent show contentId 1`] = `
+{
+  "descriptionText": "",
+  "infoText": "Now start watching",
+  "playbackURL": "https://media.stage.in/subscription/tnpl_2/NC_subscription_success_hindi_v1.mp4",
+  "thumbnailURL": "https://media.stage.in/icons/success1x_icon_18oct.png",
+  "titleText": "Your favourite movie/show is ready",
+}
+`;
+
+exports[`MODULE: Promotion Clip Tests GET: /contents/promotionClip should return fallback clip when movie contentId is not found (due to missing format field) 1`] = `
+{
+  "descriptionText": "Movie · 30m",
+  "infoText": "Your favourite movie is ready",
+  "playbackURL": "https://media.stage.in/trailers/individual/sample-individual-episode/trailer/HLS/",
+  "thumbnailURL": "https://media.stage.in/episode/horizontal/small/sample_individual_episode_thumbnail.jpg",
+  "titleText": "This is movie",
+}
+`;
+
+exports[`MODULE: Promotion Clip Tests GET: /contents/promotionClip should return fallback clip when movie contentId is not found in Hindi 1`] = `
+{
+  "descriptionText": "फिल्म · 30m",
+  "infoText": "अब देखना शुरू करें",
+  "playbackURL": "https://media.stage.in/trailers/individual/sample-individual-episode/trailer/HLS/",
+  "thumbnailURL": "https://media.stage.in/episode/horizontal/small/sample_individual_episode_thumbnail.jpg",
+  "titleText": "This is movie",
+}
+`;
+
+exports[`MODULE: Promotion Clip Tests GET: /contents/promotionClip should return fallback clip when only contentId is provided without contentType 1`] = `
+{
+  "descriptionText": "",
+  "infoText": "Now start watching",
+  "playbackURL": "https://media.stage.in/subscription/tnpl_2/NC_subscription_success_hindi_v1.mp4",
+  "thumbnailURL": "https://media.stage.in/icons/success1x_icon_18oct.png",
+  "titleText": "Your favourite movie/show is ready",
+}
+`;
+
+exports[`MODULE: Promotion Clip Tests GET: /contents/promotionClip should return fallback clip when only contentType is provided without contentId 1`] = `
+{
+  "descriptionText": "",
+  "infoText": "Now start watching",
+  "playbackURL": "https://media.stage.in/subscription/tnpl_2/NC_subscription_success_hindi_v1.mp4",
+  "thumbnailURL": "https://media.stage.in/icons/success1x_icon_18oct.png",
+  "titleText": "Your favourite movie/show is ready",
+}
+`;
+
+exports[`MODULE: Promotion Clip Tests GET: /contents/promotionClip should return fallback promotion clip in Hindi when no contentId and contentType provided 1`] = `
+{
+  "descriptionText": "",
+  "infoText": "अब देखना शुरू करें",
+  "playbackURL": "https://media.stage.in/subscription/tnpl_2/NC_subscription_success_hindi_v1.mp4",
+  "thumbnailURL": "https://media.stage.in/subscription/tnpl_2/NC_subscription_success_hindi_v1.mp4",
+  "titleText": "आपकी पसंदीदा फिल्म/शो तैयार है",
+}
+`;
+
+exports[`MODULE: Promotion Clip Tests GET: /contents/promotionClip should return fallback promotion clip when no contentId and contentType provided 1`] = `
+{
+  "descriptionText": "",
+  "infoText": "Now start watching",
+  "playbackURL": "https://media.stage.in/subscription/tnpl_2/NC_subscription_success_hindi_v1.mp4",
+  "thumbnailURL": "https://media.stage.in/icons/success1x_icon_18oct.png",
+  "titleText": "Your favourite movie/show is ready",
+}
+`;
+
+exports[`MODULE: Promotion Clip Tests GET: /contents/promotionClip should return show promotion clip for valid show contentId 1`] = `
+{
+  "descriptionText": "Show · 29m",
+  "infoText": "Your favourite movie is ready",
+  "playbackURL": "https://media.stage.in/trailers/show/choriyaan-bojh-na-hoti/trailer/HLS/",
+  "thumbnailURL": "https://media.stage.in/show/horizontal/small/showImage-1588584258059.jpg",
+  "titleText": "छोरियाँ बोझ ना होती",
+}
+`;
+
+exports[`MODULE: Promotion Clip Tests GET: /contents/promotionClip should return show promotion clip in Hindi for valid show contentId 1`] = `
+{
+  "descriptionText": "शो · 29m",
+  "infoText": "अब देखना शुरू करें",
+  "playbackURL": "https://media.stage.in/trailers/show/choriyaan-bojh-na-hoti/trailer/HLS/",
+  "thumbnailURL": "https://media.stage.in/show/horizontal/small/showImage-1588584258059.jpg",
+  "titleText": "छोरियाँ बोझ ना होती",
+}
+`;
+
+exports[`MODULE: Promotion Clip Tests GET: /contents/promotionClip should work with different platforms (TV) 1`] = `
+{
+  "descriptionText": "Show · 29m",
+  "infoText": "Your favourite movie is ready",
+  "playbackURL": "https://media.stage.in/trailers/show/choriyaan-bojh-na-hoti/trailer/HLS/",
+  "thumbnailURL": "https://media.stage.in/show/horizontal/medium/showImage-1588584258059.jpg",
+  "titleText": "छोरियाँ बोझ ना होती",
+}
+`;
+
+exports[`MODULE: Promotion Clip Tests GET: /contents/promotionClip should work with different platforms (WEB) 1`] = `
+{
+  "descriptionText": "Show · 29m",
+  "infoText": "Your favourite movie is ready",
+  "playbackURL": "https://media.stage.in/trailers/show/choriyaan-bojh-na-hoti/trailer/HLS/",
+  "thumbnailURL": "https://media.stage.in/show/horizontal/small/showImage-1588584258059.jpg",
+  "titleText": "छोरियाँ बोझ ना होती",
+}
+`;

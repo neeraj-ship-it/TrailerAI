@@ -1,0 +1,112 @@
+{
+  "family": "trailer-narrative-ai",
+  "networkMode": "awsvpc",
+  "requiresCompatibilities": ["EC2"],
+  "cpu": "4096",
+  "memory": "16384",
+  "executionRoleArn": "arn:aws:iam::${AWS_ACCOUNT_ID}:role/ecsTaskExecutionRole",
+  "taskRoleArn": "arn:aws:iam::${AWS_ACCOUNT_ID}:role/ecsTaskRole",
+  "containerDefinitions": [
+    {
+      "name": "trailer-narrative-ai",
+      "image": "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/trailer-narrative-ai:latest",
+      "essential": true,
+      "cpu": 4096,
+      "memory": 16384,
+      "memoryReservation": 12288,
+      "resourceRequirements": [
+        {
+          "type": "GPU",
+          "value": "1"
+        }
+      ],
+      "environment": [
+        {"name": "ENVIRONMENT", "value": "production"},
+        {"name": "USE_LLM", "value": "true"},
+        {"name": "LLM_MODEL", "value": "google/flan-t5-large"},
+        {"name": "LLM_DEVICE", "value": "cuda"},
+        {"name": "WHISPER_DEVICE", "value": "cuda"},
+        {"name": "VISUAL_DEVICE", "value": "cuda"},
+        {"name": "ASR_CHUNKED", "value": "false"},
+        {"name": "MAX_WORKERS", "value": "2"},
+        {"name": "PYTHONUNBUFFERED", "value": "1"}
+      ],
+      "secrets": [],
+      "mountPoints": [
+        {
+          "sourceVolume": "input",
+          "containerPath": "/app/input",
+          "readOnly": true
+        },
+        {
+          "sourceVolume": "output",
+          "containerPath": "/app/output",
+          "readOnly": false
+        },
+        {
+          "sourceVolume": "model-cache",
+          "containerPath": "/root/.cache",
+          "readOnly": false
+        }
+      ],
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/trailer-narrative-ai",
+          "awslogs-region": "${AWS_REGION}",
+          "awslogs-stream-prefix": "ecs"
+        }
+      },
+      "healthCheck": {
+        "command": ["CMD-SHELL", "python3 -c \"import torch; print(torch.cuda.is_available())\" || exit 1"],
+        "interval": 30,
+        "timeout": 10,
+        "retries": 3,
+        "startPeriod": 60
+      },
+      "ulimits": [
+        {
+          "name": "nofile",
+          "softLimit": 65536,
+          "hardLimit": 65536
+        }
+      ]
+    }
+  ],
+  "volumes": [
+    {
+      "name": "input",
+      "efsVolumeConfiguration": {
+        "fileSystemId": "${EFS_FILE_SYSTEM_ID}",
+        "rootDirectory": "/input",
+        "transitEncryption": "ENABLED"
+      }
+    },
+    {
+      "name": "output",
+      "efsVolumeConfiguration": {
+        "fileSystemId": "${EFS_FILE_SYSTEM_ID}",
+        "rootDirectory": "/output",
+        "transitEncryption": "ENABLED"
+      }
+    },
+    {
+      "name": "model-cache",
+      "efsVolumeConfiguration": {
+        "fileSystemId": "${EFS_FILE_SYSTEM_ID}",
+        "rootDirectory": "/model-cache",
+        "transitEncryption": "ENABLED"
+      }
+    }
+  ],
+  "placementConstraints": [
+    {
+      "type": "memberOf",
+      "expression": "attribute:ecs.instance-type =~ g4dn.*"
+    }
+  ],
+  "tags": [
+    {"key": "Project", "value": "trailer-narrative-ai"},
+    {"key": "Environment", "value": "production"}
+  ]
+}

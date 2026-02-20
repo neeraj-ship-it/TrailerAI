@@ -1,0 +1,16 @@
+# Clip Extractor AI - Python Dependencies
+
+# HTTP requests (for downloading video from public URL)
+requests>=2.31.0
+
+# AWS S3 (for uploading extracted clips)
+boto3>=1.34.0
+
+# Data validation
+pydantic>=2.5.0
+
+# Logging
+loguru>=0.7.0
+
+# Retry logic
+tenacity>=8.2.0
